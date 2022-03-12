@@ -40,7 +40,12 @@
       "ProjectGuid": "55303578-5bdc-4076-b055-5df7e3948a43",
       "DisplayName": "ShopManagement.Configuration",
       "ColorIndex": 6
+    },
+    "5c0170a2-0083-4e9b-a9c2-27fcc9c3f651": {
+      "ProjectGuid": "5c0170a2-0083-4e9b-a9c2-27fcc9c3f651",
+      "DisplayName": "ServiceHost",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 8
 }
