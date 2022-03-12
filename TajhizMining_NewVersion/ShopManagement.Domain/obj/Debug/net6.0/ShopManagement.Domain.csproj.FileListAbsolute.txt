@@ -1,0 +1,17 @@
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ShopManagement.Domain\bin\Debug\net6.0\ShopManagement.Domain.deps.json
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ShopManagement.Domain\bin\Debug\net6.0\ShopManagement.Domain.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ShopManagement.Domain\bin\Debug\net6.0\ref\ShopManagement.Domain.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ShopManagement.Domain\bin\Debug\net6.0\ShopManagement.Domain.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.csproj.AssemblyReference.cache
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.AssemblyInfoInputs.cache
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.AssemblyInfo.cs
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.csproj.CoreCompileInputs.cache
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ShopManagement.Domain\obj\Debug\net6.0\ref\ShopManagement.Domain.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ShopManagement.Domain\bin\Debug\net6.0\01_Framework.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ShopManagement.Domain\bin\Debug\net6.0\01_Framework.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.csproj.CopyComplete
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ShopManagement.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ShopManagement.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
