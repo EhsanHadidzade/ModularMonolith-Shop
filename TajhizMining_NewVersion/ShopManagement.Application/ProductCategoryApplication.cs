@@ -71,7 +71,7 @@ namespace SM.Application.ShopManagement.Application
 
         public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchmodel)
         {
-            throw new NotImplementedException();
+            return _productCategoryRepository.Search(searchmodel);
         }
     }
 }

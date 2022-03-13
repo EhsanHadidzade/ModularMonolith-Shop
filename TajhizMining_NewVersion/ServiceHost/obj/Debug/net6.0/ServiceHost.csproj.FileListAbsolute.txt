@@ -273,3 +273,4 @@ E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\obj\Debu
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\obj\Debug\net6.0\ServiceHost.pdb
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\obj\Debug\net6.0\ServiceHost.genruntimeconfig.cache
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\obj\Debug\net6.0\scopedcss\Areas\Administrator\Pages\Shared\_AdminLayout.cshtml.rz.scp.css
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

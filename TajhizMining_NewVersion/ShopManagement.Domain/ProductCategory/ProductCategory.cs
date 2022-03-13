@@ -1,14 +1,10 @@
 ﻿using _01_Framework.Domain;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SM.Domain.ShopManagement.Domain.ProductCategory
 {
     public class ProductCategory:EntityBase
     {
+
         public string Name { get; private set; }
         public string Description { get; private set; }
         public string Picture { get; private set; }

@@ -23,6 +23,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/projects/TajhizMining_NewVersion/TajhizMining_NewVersion/ServiceHost/Areas/Administrator/Pages/Shop/ProductCategory/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xTaG9wXFByb2R1Y3RDYXRlZ29yeVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/TajhizMining_NewVersion/TajhizMining_NewVersion/ServiceHost/Areas/Administrator/Pages/Shop/ProductCategory/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xTaG9wXFByb2R1Y3RDYXRlZ29yeVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/TajhizMining_NewVersion/TajhizMining_NewVersion/ServiceHost/Areas/Administrator/Pages/Shop/ProductCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xTaG9wXFByb2R1Y3RDYXRlZ29yeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/projects/TajhizMining_NewVersion/TajhizMining_NewVersion/ServiceHost/Areas/Administrator/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
