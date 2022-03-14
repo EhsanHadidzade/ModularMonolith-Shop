@@ -1,4 +1,5 @@
 ﻿using _01_Framework.Domain;
+using ShopManagement.Domain.Product;
 
 namespace SM.Domain.ShopManagement.Domain.ProductCategory
 {
@@ -11,10 +12,18 @@ namespace SM.Domain.ShopManagement.Domain.ProductCategory
         public string PictureAlt { get; private set; }
         public string PictureTitle { get; private set; }
 
-        //SEO Performance
+        //SEO Operation
         public string Keyword { get; private set; }
         public string MetaDescription { get; private set; }
         public string Slug { get; private set; }
+
+        //Relations
+        public List<Product> Products { get; set; }
+
+        public ProductCategory()
+        {
+            Products = new List<Product>();
+        }
 
         public ProductCategory(string name, string description, string picture, string pictureAlt,
             string pictureTitle, string keyword, string metaDescription, string slug)

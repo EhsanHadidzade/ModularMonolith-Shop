@@ -120,12 +120,10 @@
                             <ul class="list-unstyled">
                                 <li><a href="email-read.html"> اسلایدر</a></li>
                                 <li><a asp-page="/shop/productcategory/index">گروه محصولات</a></li>
-                                <li><a href="email-compose.html">محصولات</a></li>
+                                <li><a asp-page="/shop/product/index">محصولات</a></li>
                                 <li><a href="email-read.html">عکس محصول</a></li>
                             </ul>
                         </li>
-
-
                     </ul>
                     <div class="clearfix"></div>
                 </div>
@@ -140,7 +138,6 @@
             <!-- Start content -->
             <div class="content">
                 <div class="container">
-
                     <!-- Page-Title -->
                     <div class="row">
                         <div class="col-sm-12">
@@ -151,17 +148,12 @@
                             </ol>
                         </div>
                     </div>
-
                     @RenderBody()
-
                 </div> <!-- container -->
-
             </div> <!-- content -->
-
             <footer class="footer text-right">
                 2015 © Moltran.
             </footer>
-
         </div>
         <!-- ============================================================== -->
         <!-- End Right content here -->

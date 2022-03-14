@@ -64,6 +64,11 @@ namespace SM.Application.ShopManagement.Application
 
         }
 
+        public List<ProductCategoryViewModel> GetAllProductCategories()
+        {
+            return _productCategoryRepository.GetAllProductCategories(); 
+        }
+
         public EditProductCategory GetDetails(long id)
         {
             return _productCategoryRepository.GetDetails(id);
@@ -73,5 +78,6 @@ namespace SM.Application.ShopManagement.Application
         {
             return _productCategoryRepository.Search(searchmodel);
         }
+      
     }
 }

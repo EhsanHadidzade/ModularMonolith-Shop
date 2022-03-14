@@ -11,7 +11,8 @@ namespace SM.Domain.ShopManagement.Domain.ProductCategory
 {
     public interface IProductCategoryRepository:IRepository<long,ProductCategory>
     {
-     
+
+        List<ProductCategoryViewModel> GetAllProductCategories();
         EditProductCategory GetDetails(long id);
         List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchmodel);
     }

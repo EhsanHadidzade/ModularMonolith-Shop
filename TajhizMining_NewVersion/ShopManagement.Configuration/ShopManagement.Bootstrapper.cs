@@ -1,5 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using ShopManagement.Application;
+using ShopManagement.Application.Contracts.Product;
+using ShopManagement.Domain.Product;
 using ShopManagement.Infrastructure.EFCore;
 using ShopManagement.Infrastructure.EFCore.Repository;
 using SM.Application.ShopManagement.Application;
@@ -14,6 +17,9 @@ namespace ShopManagement.Configuration
         {
             services.AddTransient<IProductCategoryRepository,ProductCategoryRepository>();
             services.AddTransient<IProductCategoryApplication, ProductCategoryApplication>();
+
+            services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddTransient<IProductApplication, ProductApplication>();
 
             services.AddDbContext<TajhizMiningContext>(x => x.UseSqlServer(connectionstring));
         }
