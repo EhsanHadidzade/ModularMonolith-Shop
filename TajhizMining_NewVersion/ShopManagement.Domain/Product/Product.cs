@@ -25,9 +25,13 @@ namespace ShopManagement.Domain.Product
         public string KeyWords { get; private set; }
         public string MetaDescription { get; private set; }
 
-        //Relations
+        //Relation with productcategory
         public long CateforyId { get; private set; }
-        public ProductCategory ProductCategory { get; set; }
+        public ProductCategory ProductCategory { get; private set; }
+
+        //relation with ProductPicture
+        public List<ProductPicture.ProductPicture> ProductPictures { get; private set; }
+
 
         public Product(string name, double unitPrice, string code, string shortDescription, string description,
             string picture, string pictureAlt, string pictureTitle, string slug, string keyWords, 

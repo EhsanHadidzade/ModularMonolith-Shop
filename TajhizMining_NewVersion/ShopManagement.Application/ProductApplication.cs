@@ -1,11 +1,6 @@
 ﻿using _01_Framework.Application;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Domain.Product;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShopManagement.Application
 {
