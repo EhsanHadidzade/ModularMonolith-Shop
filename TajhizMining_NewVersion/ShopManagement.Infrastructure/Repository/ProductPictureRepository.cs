@@ -31,6 +31,8 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             }).FirstOrDefault(x=>x.Id==id);
         }
 
+    
+
         public List<ProductPictureViewModel> Search(ProductPictureSearchModel searchmodel)
         {
             var query = _context.ProductPictures.Include(x => x.Product).Select(x => new ProductPictureViewModel
@@ -39,7 +41,8 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Id = x.Id,
                 Picture = x.Picture,
                 Product = x.Product.Name,
-                ProductId = x.ProductId
+                ProductId = x.ProductId,
+                IsRemoved=x.IsRemoved
             });
 
             if(searchmodel.ProductId!=0)

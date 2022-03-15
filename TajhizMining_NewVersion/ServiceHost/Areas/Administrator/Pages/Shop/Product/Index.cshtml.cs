@@ -48,9 +48,9 @@ namespace ServiceHost.Areas.Administrator.Pages.Shop.Product
 
         public IActionResult OnGetEdit(long id)
         {
-            var productcategory=_productApplication.GetDetails(id);
-            productcategory.Categories= _productCategoryApplication.GetAllProductCategories();
-            return Partial("./Edit",productcategory);
+            var product=_productApplication.GetDetails(id);
+            product.Categories= _productCategoryApplication.GetAllProductCategories();
+            return Partial("./Edit",product);
         }
         public JsonResult OnPostEdit(EditProduct command)
         {

@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ShopManagement.Domain.Product;
 using ShopManagement.Domain.ProductPicture;
+using ShopManagement.Domain.Slide;
 using ShopManagement.Infrastructure.EFCore.Mapping;
 using SM.Domain.ShopManagement.Domain.ProductCategory;
 using System;
@@ -16,6 +17,7 @@ namespace ShopManagement.Infrastructure.EFCore
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductCategory> ProductCategories { get; set; }
         public DbSet<ProductPicture> ProductPictures { get; set; }
+        public DbSet<Slide> Slides { get; set; }
 
         public TajhizMiningContext(DbContextOptions<TajhizMiningContext> options):base(options)
         {

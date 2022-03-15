@@ -72,7 +72,7 @@ namespace ShopManagement.Application
             if (productpicture == null)
                 return operation.Failed(ApplicationMessage.RecordNotFound);
 
-            productpicture.Remove();
+            productpicture.Restore();
             _productPictureRepository.Save();
             return operation.Succedded();
         }
