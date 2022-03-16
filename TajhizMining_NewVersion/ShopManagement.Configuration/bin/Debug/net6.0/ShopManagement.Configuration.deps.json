@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "ShopManagement.Configuration/1.0.0": {
         "dependencies": {
+          "01_TajhizMiningQuery": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.3",
@@ -495,6 +496,14 @@
           "01_Framework.dll": {}
         }
       },
+      "01_TajhizMiningQuery/1.0.0": {
+        "dependencies": {
+          "ShopManagement.Infrastructure.EFCore": "1.0.0"
+        },
+        "runtime": {
+          "01_TajhizMiningQuery.dll": {}
+        }
+      },
       "ShopManagement.Application/1.0.0": {
         "dependencies": {
           "ShopManagement.Application.Contracts": "1.0.0",
@@ -841,6 +850,11 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "01_Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "01_TajhizMiningQuery/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

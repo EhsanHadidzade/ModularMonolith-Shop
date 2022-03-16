@@ -1,0 +1,17 @@
+﻿@model List<_01_TajhizMiningQuery.Contracts.ProductCategory.ProductCategoryForBodyQueryModel>
+
+    @foreach (var item in Model)
+{
+    <div class="col-lg-2">
+        <article class="single_category">
+            <figure>
+                <div class="category_thumb">
+                    <a href="@item.Slug"><img src="@item.Picture" alt="@item.PictureAlt" title="@item.PictureTitle"></a>
+                </div>
+                <figcaption class="category_name">
+                    <h3><a href="shop.html">@item.Name</a></h3>
+                </figcaption>
+            </figure>
+        </article>
+    </div>
+}

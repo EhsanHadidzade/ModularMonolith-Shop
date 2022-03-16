@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\01_TajhizMiningQuery\01_TajhizMiningQuery.csproj" />
     <ProjectReference Include="..\ShopManagement.Application\ShopManagement.Application.csproj" />
     <ProjectReference Include="..\ShopManagement.Domain\ShopManagement.Domain.csproj" />
     <ProjectReference Include="..\ShopManagement.Infrastructure\ShopManagement.Infrastructure.EFCore.csproj" />

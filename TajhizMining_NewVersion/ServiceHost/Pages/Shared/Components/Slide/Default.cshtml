@@ -1,0 +1,39 @@
+﻿@model List<_01_TajhizMiningQuery.Contracts.Slide.SlideQueryModel>
+
+    	<!--slider area start-->
+	<section class="slider_section slider_section_five mb-70 mt-30">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-1 col-md-2">
+					</div>
+				<div class="col-lg-9 col-md-8">
+					<div class="slider_area owl-carousel">
+						@foreach(var slide in Model)
+						{
+							<div class="single_slider d-flex align-items-center" data-bgimg="@slide.Picture">
+							<div class="slider_content slider_c_four">
+								<h1>@slide.Heading</h1>
+								<h2>@slide.Title </h2>
+								<p>پیشنهاد ویژه <span> 20% تخفیف </span> این هفته</p>
+								<p>@slide.Text</p>
+								<a class="button" href="shop.html"> @slide.BtnText</a>
+							</div>
+						</div>
+						}
+						
+					@*	<div class="single_slider d-flex align-items-center" data-bgimg="/theme/assets/img/slider/slider17.jpg">
+							<div class="slider_content slider_c_four">
+								<h1>نوت بوک پرو</h1>
+								<h2>پرفروش‌ترین محصول 2019</h2>
+								<p>پیشنهاد ویژه <span> 20% تخفیف </span> این هفته</p>
+								<a class="button" href="shop.html">اکنون بخرید</a>
+							</div>*@
+						</div>
+					</div>
+					<div class="col-lg-1 col-md-2">
+					</div>
+				</div>
+			
+			</div>
+	</section>
+	<!--slider area end-->

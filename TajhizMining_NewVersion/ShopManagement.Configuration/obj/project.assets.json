@@ -645,6 +645,19 @@
           "bin/placeholder/01_Framework.dll": {}
         }
       },
+      "01_TajhizMiningQuery/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ShopManagement.Infrastructure.EFCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/01_TajhizMiningQuery.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/01_TajhizMiningQuery.dll": {}
+        }
+      },
       "ShopManagement.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1925,6 +1938,11 @@
       "path": "../01_Framework/01_Framework.csproj",
       "msbuildProject": "../01_Framework/01_Framework.csproj"
     },
+    "01_TajhizMiningQuery/1.0.0": {
+      "type": "project",
+      "path": "../01_TajhizMiningQuery/01_TajhizMiningQuery.csproj",
+      "msbuildProject": "../01_TajhizMiningQuery/01_TajhizMiningQuery.csproj"
+    },
     "ShopManagement.Application/1.0.0": {
       "type": "project",
       "path": "../ShopManagement.Application/ShopManagement.Application.csproj",
@@ -1948,6 +1966,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "01_TajhizMiningQuery >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.3",
@@ -1989,6 +2008,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\01_TajhizMiningQuery\\01_TajhizMiningQuery.csproj": {
+              "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\01_TajhizMiningQuery\\01_TajhizMiningQuery.csproj"
+            },
             "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ShopManagement.Application\\ShopManagement.Application.csproj": {
               "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ShopManagement.Application\\ShopManagement.Application.csproj"
             },

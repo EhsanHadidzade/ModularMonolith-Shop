@@ -9,7 +9,7 @@ namespace ShopManagement.Application.Contracts.Product
         [Required(ErrorMessage = ValidationMessage.IsRequired)]
         public string Name { get; set; }
 
-        [Range(0,10000000,ErrorMessage = ValidationMessage.IsRequired)]
+        [Range(0,100000000,ErrorMessage = ValidationMessage.IsRequired)]
         public double UnitPrice { get; set; }
 
         [Required(ErrorMessage = ValidationMessage.IsRequired)]

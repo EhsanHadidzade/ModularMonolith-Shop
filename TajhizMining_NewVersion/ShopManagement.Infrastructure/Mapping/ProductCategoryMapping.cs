@@ -13,7 +13,7 @@ namespace ShopManagement.Infrastructure.EFCore.Mapping
 
             builder.Property(x => x.Name).HasMaxLength(255).IsRequired();
             builder.Property(x => x.Description).HasMaxLength(500);
-            builder.Property(x => x.Picture).HasMaxLength(1000);
+            builder.Property(x => x.Picture).HasMaxLength(10000);
             builder.Property(x => x.PictureAlt).HasMaxLength(255);
 
             //SEO Operation

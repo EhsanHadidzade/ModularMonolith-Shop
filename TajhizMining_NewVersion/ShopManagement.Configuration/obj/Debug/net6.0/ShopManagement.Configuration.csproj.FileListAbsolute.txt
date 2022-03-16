@@ -23,3 +23,5 @@ E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ShopManagement.Confi
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ShopManagement.Configuration\obj\Debug\net6.0\ref\ShopManagement.Configuration.dll
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ShopManagement.Configuration\obj\Debug\net6.0\ShopManagement.Configuration.pdb
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ShopManagement.Configuration\obj\Debug\net6.0\ShopManagement.Configuration.genruntimeconfig.cache
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ShopManagement.Configuration\bin\Debug\net6.0\01_TajhizMiningQuery.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ShopManagement.Configuration\bin\Debug\net6.0\01_TajhizMiningQuery.pdb

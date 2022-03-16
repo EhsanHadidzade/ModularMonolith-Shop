@@ -1,0 +1,8 @@
+﻿@model List<_01_TajhizMiningQuery.Contracts.ProductCategory.ProductCategoryForHeaderQueryModel>
+
+    @foreach (var item in Model)
+{
+    <li class="menu_item_children">
+        <a href="@item.Slug">@item.Name<i class="fa fa-angle-left"></i></a>
+    </li>
+}

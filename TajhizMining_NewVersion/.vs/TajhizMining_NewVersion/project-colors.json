@@ -45,7 +45,12 @@
       "ProjectGuid": "5c0170a2-0083-4e9b-a9c2-27fcc9c3f651",
       "DisplayName": "ServiceHost",
       "ColorIndex": 7
+    },
+    "9d7c00d1-5a1c-44c1-80f0-467dce9ae6a0": {
+      "ProjectGuid": "9d7c00d1-5a1c-44c1-80f0-467dce9ae6a0",
+      "DisplayName": "01_TajhizMiningQuery",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 9
 }
