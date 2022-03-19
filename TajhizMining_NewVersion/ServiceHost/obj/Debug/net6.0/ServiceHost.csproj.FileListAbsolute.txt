@@ -276,3 +276,13 @@ E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\obj\Debu
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\01_TajhizMiningQuery.dll
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\01_TajhizMiningQuery.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\DiscountManagement.Application.Contract.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\DiscountManagement.Application.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\DiscountManagement.Configuration.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\DiscountManagement.Domain.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\DiscountManagement.Configuration.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\DiscountManagement.Application.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\DiscountManagement.Application.Contract.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\DiscountManagement.Domain.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.pdb

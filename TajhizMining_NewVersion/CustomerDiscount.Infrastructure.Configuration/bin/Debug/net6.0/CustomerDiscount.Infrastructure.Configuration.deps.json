@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CustomerDiscount.Infrastructure.Configuration/1.0.0": {
+        "runtime": {
+          "CustomerDiscount.Infrastructure.Configuration.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CustomerDiscount.Infrastructure.Configuration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,4 +1,5 @@
-﻿using _01_Framework.Infrastructure;
+﻿using _01_Framework.Application;
+using _01_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Slide;
 using ShopManagement.Domain.Slide;
@@ -37,7 +38,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
         {
             var query = _context.Slides.Select(s => new SlideViewModel
             {
-                CreationDate = s.CretionDate.ToString(),
+                CreationDate = s.CretionDate.ToFarsi(),
                 Heading = s.Heading,
                 Id = s.Id,
                 IsRemoved = s.IsRemoved,

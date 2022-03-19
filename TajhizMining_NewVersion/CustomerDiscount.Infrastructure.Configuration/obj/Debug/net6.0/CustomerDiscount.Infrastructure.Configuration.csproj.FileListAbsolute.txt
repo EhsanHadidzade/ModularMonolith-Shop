@@ -1,0 +1,11 @@
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.Configuration\bin\Debug\net6.0\CustomerDiscount.Infrastructure.Configuration.deps.json
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.Configuration\bin\Debug\net6.0\CustomerDiscount.Infrastructure.Configuration.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.Configuration\bin\Debug\net6.0\ref\CustomerDiscount.Infrastructure.Configuration.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.Configuration\bin\Debug\net6.0\CustomerDiscount.Infrastructure.Configuration.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.Configuration\obj\Debug\net6.0\CustomerDiscount.Infrastructure.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.Configuration\obj\Debug\net6.0\CustomerDiscount.Infrastructure.Configuration.AssemblyInfoInputs.cache
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.Configuration\obj\Debug\net6.0\CustomerDiscount.Infrastructure.Configuration.AssemblyInfo.cs
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.Configuration\obj\Debug\net6.0\CustomerDiscount.Infrastructure.Configuration.csproj.CoreCompileInputs.cache
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.Configuration\obj\Debug\net6.0\CustomerDiscount.Infrastructure.Configuration.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.Configuration\obj\Debug\net6.0\ref\CustomerDiscount.Infrastructure.Configuration.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.Configuration\obj\Debug\net6.0\CustomerDiscount.Infrastructure.Configuration.pdb

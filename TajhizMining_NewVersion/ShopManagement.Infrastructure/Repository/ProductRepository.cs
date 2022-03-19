@@ -1,4 +1,5 @@
-﻿using _01_Framework.Infrastructure;
+﻿using _01_Framework.Application;
+using _01_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Domain.Product;
@@ -56,7 +57,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 ProductCategory = p.ProductCategory.Name,
                 UnitPrice = p.UnitPrice,
                 IsInStock=p.IsInStock,
-                CreationDate=p.CretionDate.ToString()
+                CreationDate=p.CretionDate.ToFarsi()
             });
 
             if (!string.IsNullOrWhiteSpace(searchModel.Name))

@@ -18,7 +18,7 @@ using SM.Domain.ShopManagement.Domain.ProductCategory;
 
 namespace ShopManagement.Configuration
 {
-    public class ShopManagement
+    public class ShopManagementBootstrapper
     { 
         public static void Configure(IServiceCollection services,string connectionstring)
         {

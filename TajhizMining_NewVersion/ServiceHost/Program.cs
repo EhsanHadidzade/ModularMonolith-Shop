@@ -11,7 +11,10 @@ builder.Services.AddRazorPages();
 var connectionstring = builder.Configuration.GetConnectionString("TA_NewVersion_DB");
 
 //services
-ShopManagement.Configuration.ShopManagement.Configure(builder.Services, connectionstring);
+ShopManagement.Configuration.ShopManagementBootstrapper.Configure(builder.Services, connectionstring);
+DiscountManagement.Configuration.DiscountManagementBootstrapper.Configure(builder.Services,connectionstring);
+
+
 
 
 var app = builder.Build();
