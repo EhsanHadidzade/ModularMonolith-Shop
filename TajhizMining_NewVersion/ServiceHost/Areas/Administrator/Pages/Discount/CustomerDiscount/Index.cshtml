@@ -1,14 +1,14 @@
 ﻿@page
 @model ServiceHost.Areas.Administrator.Pages.Discount.CustomerDiscount.IndexModel
 @{
-    ViewData["Title"] = "مدیریت تخفیف های فروشگاه";
+    ViewData["Title"] = "مدیریت تخفیف های مشتریان";
 }
 
 <div class="row">
     <div class="col-sm-12">
         <h4 class="page-title pull-right">@ViewData["title"]</h4>
         <p class="pull-left">
-            <a class="btn btn-success btn-lg" href="#showmodal=@Url.Page("./Index", "Create")">ایجاد تخفیف  جدید</a>
+            <a class="btn btn-success btn-lg" href="#showmodal=@Url.Page("./Index", "Create")"> ایجاد تخفیف  جدید برای مشتریان </a>
         </p>
     </div>
 </div>
@@ -17,18 +17,18 @@
     <div class="col-md-12">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">جستجو در  تخفیف ها</h3>
+                <h3 class="panel-title">جستجو در  تخفیف  مشتریان</h3>
             </div>
             <div class="panel-body">
                 <form class="form-inline" role="form" method="get">
-                    @*<div class="form-group">
-                        <label class="sr-only" asp-for="@Model.searchmodel.Name"></label>
-                        <input class="form-control" asp-for="@Model.searchmodel.Name" placeholder="نام محصول ">
+                    <div class="form-group">
+                        <label class="sr-only" asp-for="@Model.searchmodel.StartDate"></label>
+                        <input class="form-control PersianDateInput" asp-for="@Model.searchmodel.StartDate" placeholder="تاریخ شروع ">
                     </div>
                     <div class="form-group">
-                        <label class="sr-only" asp-for="@Model.searchmodel.Code"></label>
-                        <input class="form-control" asp-for="@Model.searchmodel.Code" placeholder="کد">
-                    </div>*@
+                        <label class="sr-only" asp-for="@Model.searchmodel.EndDate"></label>
+                        <input class="form-control PersianDateInput" asp-for="@Model.searchmodel.EndDate" placeholder="تاریخ پایان">
+                    </div>
                     <div class="form-group">
                         <label class="sr-only" asp-for="searchmodel.ProductId"></label>
                         <select asp-for="searchmodel.ProductId" class="form-control" asp-items="@Model.Products as SelectList">
@@ -56,22 +56,31 @@
                             <thead>
                                 <tr>
                                     <th>#</th>
-                                    <th>عکس</th>
-                                    <th>نام</th>
-                                    <th>کد</th>
-                                    <th>گروه</th>
-                                    <th>قیمت</th>
-                                    <th>وضعیت محصول در انبار</th>
+                                    <th>محصول</th>
+                                    <th>درصد تخفیف</th>
+                                    <th>تاریخ شروع</th>
+                                    <th>تاریخ پابان</th>
+                                    <th>علت تخفیف</th>
                                     <th>تاریخ تولید</th>
                                     <th>عملیات</th>
 
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach (var item in Model.Products)
+                                @foreach (var item in Model.CustomerDiscounts)
                                 {
                                     <tr>
-                                       
+                                        <td>@item.Id</td>
+                                        <td>@item.Product</td>
+                                        <td>@item.DiscountRate</td>
+                                        <td>@item.StartDate</td>
+                                        <td>@item.EndDate</td>
+                                        <td>@item.Reason</td>
+                                        <td>@item.CreationDate</td>
+                                        <td>
+                                            <a href="#showmodal=@Url.Page("./index","Edit",new {id=item.Id})" class="btn btn-warning pull-right m-rl-5">ویرایش</a>
+
+                                        </td>
                                     </tr>
                                 }
                             </tbody>

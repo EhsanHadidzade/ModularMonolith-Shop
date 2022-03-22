@@ -32,15 +32,15 @@ namespace ServiceHost.Areas.Administrator.Pages.Discount.CustomerDiscount
 
         public void OnGet(CustomerDiscountSearchModel searchmodel)
         {
+            
             Products = new SelectList(_productApplication.GetProducts(), "Id", "Name");
             CustomerDiscounts = _CustomerDiscountApplication.Search(searchmodel);
         }
         public IActionResult OnGetCreate()
         {
-            //var command = new CreateProduct() { Categories = _productCategoryApplication.GetAllProductCategories() };
-            Products = new SelectList(_productApplication.GetProducts(), "Id", "Name");
+            var command = new CreateCustomerDiscount() { Products = _productApplication.GetProducts() };
 
-            return Partial("./Create");
+            return Partial("./Create", command);
         }
 
         public JsonResult OnPostCreate(CreateCustomerDiscount command)
@@ -52,9 +52,8 @@ namespace ServiceHost.Areas.Administrator.Pages.Discount.CustomerDiscount
         public IActionResult OnGetEdit(long id)
         {
             var customerdiscount= _CustomerDiscountApplication.GetDetails(id);
-            Products = new SelectList(_productApplication.GetProducts(), "Id", "Name");
-            //product.Categories= _productCategoryApplication.GetAllProductCategories();
-            return Partial("./Edit");
+            customerdiscount.Products = _productApplication.GetProducts();
+            return Partial("./Edit", customerdiscount);
         }
         public JsonResult OnPostEdit(EditCustomerDiscount command)
         {
@@ -62,29 +61,6 @@ namespace ServiceHost.Areas.Administrator.Pages.Discount.CustomerDiscount
             return new JsonResult(result);
         }
 
-        //public RedirectToPageResult OnGetNotInStock(long id)
-        //{
-        //    var result=_productApplication.NotInStock(id);
-        //    if (result.IsSuccedded)
-        //    {
-        //        return RedirectToPage("./index");
-        //    }
-
-        //    Message=result.Message;
-        //    return RedirectToPage("./index");
-
-        //}
-        //public RedirectToPageResult OnGetISInStock(long id)
-        //{
-        //    var result = _productApplication.InStock(id);
-        //    if (result.IsSuccedded)
-        //    {
-        //        return RedirectToPage("./index");
-        //    }
-
-        //    Message = result.Message;
-        //    return RedirectToPage("./index");
-
-        //}
+        
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "R2R7XezKQrvZOyOo9do0m3MAdTz6sHpuUXpOmcSDHc4=",
+  "Hash": "LMoQ6+cQxx536u1nL5a01Is87Hu+RfvnzQ59RjmV30M=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -729,6 +729,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\AdminTheme\\assets\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Identity": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\persian-datepicker.min.css",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "AdminTheme/assets/css/persian-datepicker.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AdminTheme\\assets\\css\\persian-datepicker.min.css"
     },
     {
       "Identity": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\style.css",
