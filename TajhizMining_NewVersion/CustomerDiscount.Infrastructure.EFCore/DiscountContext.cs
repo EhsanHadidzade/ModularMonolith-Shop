@@ -16,6 +16,8 @@ namespace DiscountManagement.Infrastructure.EFCore
         }
 
         public DbSet<DiscountManagement.Domain.CustomerDiscount.CustomerDiscount> CustomerDiscounts { get; set; }
+        public DbSet<DiscountManagement.Domain.ColleagueDiscount.ColleagueDiscount>ColleagueDiscounts  { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

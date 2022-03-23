@@ -52,7 +52,7 @@ namespace DiscountManagement.Application
             return _customerDiscountRepository.GetDetails(id);
         }
 
-        public List<CustomerDiscountViewModel> Search(CustomerDiscountSearchModel searchModel)
+        public List<CustomerDiscountViewModel> Search(ColleagueDiscountSearchModel searchModel)
         {
             return _customerDiscountRepository.search(searchModel);
         }

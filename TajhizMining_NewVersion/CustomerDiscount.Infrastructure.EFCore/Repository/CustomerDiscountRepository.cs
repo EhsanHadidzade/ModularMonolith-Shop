@@ -34,7 +34,7 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
             }).FirstOrDefault(x=>x.Id==id);
         }
 
-        public List<CustomerDiscountViewModel> search(CustomerDiscountSearchModel searchmodel)
+        public List<CustomerDiscountViewModel> search(ColleagueDiscountSearchModel searchmodel)
         {
             var products = _Shopcontext.Products;
             var query = _discountContext.CustomerDiscounts.Select(x => new CustomerDiscountViewModel

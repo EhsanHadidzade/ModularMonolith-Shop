@@ -14,7 +14,7 @@ namespace ServiceHost.Areas.Administrator.Pages.Discount.CustomerDiscount
 
 
         [BindProperty]
-        public CustomerDiscountSearchModel searchmodel { get; set; }
+        public ColleagueDiscountSearchModel searchmodel { get; set; }
 
 
         public List<CustomerDiscountViewModel> CustomerDiscounts { get; set; }
@@ -30,7 +30,7 @@ namespace ServiceHost.Areas.Administrator.Pages.Discount.CustomerDiscount
             _CustomerDiscountApplication = CustomerDiscountApplication;
         }
 
-        public void OnGet(CustomerDiscountSearchModel searchmodel)
+        public void OnGet(ColleagueDiscountSearchModel searchmodel)
         {
             
             Products = new SelectList(_productApplication.GetProducts(), "Id", "Name");

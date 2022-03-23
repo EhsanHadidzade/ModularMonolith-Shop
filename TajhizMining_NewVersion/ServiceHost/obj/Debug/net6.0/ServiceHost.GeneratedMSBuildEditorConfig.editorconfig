@@ -15,6 +15,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/projects/TajhizMining_NewVersion/TajhizMining_NewVersion/ServiceHost/Areas/Administrator/Pages/Discount/ColleagueDiscount/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xEaXNjb3VudFxDb2xsZWFndWVEaXNjb3VudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/TajhizMining_NewVersion/TajhizMining_NewVersion/ServiceHost/Areas/Administrator/Pages/Discount/ColleagueDiscount/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xEaXNjb3VudFxDb2xsZWFndWVEaXNjb3VudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/TajhizMining_NewVersion/TajhizMining_NewVersion/ServiceHost/Areas/Administrator/Pages/Discount/ColleagueDiscount/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xEaXNjb3VudFxDb2xsZWFndWVEaXNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/projects/TajhizMining_NewVersion/TajhizMining_NewVersion/ServiceHost/Areas/Administrator/Pages/Discount/CustomerDiscount/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xEaXNjb3VudFxDdXN0b21lckRpc2NvdW50XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
