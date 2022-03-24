@@ -1,3 +1,4 @@
+using InventoryManagement.Configuration;
 using ShopManagement.Configuration;
 
 
@@ -13,6 +14,7 @@ var connectionstring = builder.Configuration.GetConnectionString("TA_NewVersion_
 //services
 ShopManagement.Configuration.ShopManagementBootstrapper.Configure(builder.Services, connectionstring);
 DiscountManagement.Configuration.DiscountManagementBootstrapper.Configure(builder.Services,connectionstring);
+InventoryManagement.Configuration.InventoryManagementBootstrapper.Configure(builder.Services, connectionstring);
 
 
 

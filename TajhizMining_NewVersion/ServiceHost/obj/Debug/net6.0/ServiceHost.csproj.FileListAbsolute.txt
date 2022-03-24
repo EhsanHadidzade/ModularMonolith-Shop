@@ -286,3 +286,13 @@ E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debu
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\DiscountManagement.Application.Contract.pdb
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\DiscountManagement.Domain.pdb
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\InventoryManagement.Application.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\InventoryManagement.Configuration.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\InventoryManagement.Domain.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\InventoryManagement.Infrastructure.EFCore.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\InventoryManegement.Application.Contract.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\InventoryManagement.Configuration.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\InventoryManagement.Application.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\InventoryManagement.Domain.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\InventoryManagement.Infrastructure.EFCore.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\InventoryManegement.Application.Contract.pdb

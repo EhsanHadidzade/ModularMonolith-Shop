@@ -20,7 +20,8 @@ namespace InventoryManagement.Domain.Inventory
             UnitPrice = unitPrice;
             InStock = false;
         }
-        private long CalculateInventoryStock()
+
+        public long CalculateInventoryStock()
         {
             var plus = Operations.Where(o => o.Operation).Sum(o => o.Count);
             var minus=Operations.Where(o=>!o.Operation).Sum(o => o.Count);
@@ -42,6 +43,12 @@ namespace InventoryManagement.Domain.Inventory
             InStock=currentcount > 0;
         }
 
+        public void Edit(long productId, double unitPrice)
+        {
+            ProductId = productId;
+            UnitPrice = unitPrice;
+        }
+
 
     }
 
@@ -58,6 +65,10 @@ namespace InventoryManagement.Domain.Inventory
         public long InventoryId { get; set; }
         public Inventory Inventory { get; set; }
 
+        protected InventoryOperation()
+        {
+
+        }
         public InventoryOperation(bool operation, long count, long operatorId,
             long currentCount, string description, long orderId, long inventoryId)
         {
