@@ -75,7 +75,12 @@
       "ProjectGuid": "0def085c-bd82-4fa7-b91d-9084dbde6e5b",
       "DisplayName": "DiscountManagement.Configuration",
       "ColorIndex": 13
+    },
+    "ce9a315a-cf9a-4155-ab0e-821dde17f653": {
+      "ProjectGuid": "ce9a315a-cf9a-4155-ab0e-821dde17f653",
+      "DisplayName": "InventoryManagement.Domain",
+      "ColorIndex": 14
     }
   },
-  "NextColorIndex": 14
+  "NextColorIndex": 15
 }
