@@ -1,4 +1,5 @@
-﻿using _01_Framework.Infrastructure;
+﻿using _01_Framework.Application;
+using _01_Framework.Infrastructure;
 using InventoryManagement.Domain.Inventory;
 using InventoryManegement.Application.Contract.Inventory;
 using ShopManagement.Infrastructure.EFCore;
@@ -27,8 +28,26 @@ namespace InventoryManagement.Infrastructure.EFCore.Repository
             {
                 Id = x.Id,
                 ProductId = x.ProductId,
-                UnitPrice = x.ProductId
+                UnitPrice = x.UnitPrice
             }).FirstOrDefault(x => x.Id == id);
+        }
+
+        public List<InventoryOperationViewModel> GetOperationLog(long inventoryId)
+        {
+            var inventory= _inventoryContext.Inventories.FirstOrDefault(x => x.Id == inventoryId);
+
+            return inventory.Operations.Select(x => new InventoryOperationViewModel
+            {
+                Count = x.Count,
+                CurrentCount = x.CurrentCount,
+                Description = x.Description,
+                Operation = x.Operation,
+                Id = x.Id,
+                OperationDate = x.OperationDate.ToFarsi(),
+                OperatorId = x.OperatorId,
+                OperatorName = "مدیر",
+
+            }).OrderByDescending(x => x.Id).ToList();
         }
 
         public List<InventoryViewModel> Search(InventorySearchModel searchmodel)
@@ -40,13 +59,14 @@ namespace InventoryManagement.Infrastructure.EFCore.Repository
                 Id = x.Id,
                 InStock = x.InStock,
                 ProductId = x.ProductId,
-                UnitPrice = x.UnitPrice
+                UnitPrice = x.UnitPrice,
+                CreationDate=x.CretionDate.ToFarsi()
             });
 
             if (searchmodel.ProductId > 0)
                 query = query.Where(x => x.ProductId == searchmodel.ProductId);
 
-            if(!searchmodel.InStock)
+            if(searchmodel.InStock)
                 query=query.Where(x=>!x.InStock);
 
             var inventories = query.OrderByDescending(x => x.Id).ToList();

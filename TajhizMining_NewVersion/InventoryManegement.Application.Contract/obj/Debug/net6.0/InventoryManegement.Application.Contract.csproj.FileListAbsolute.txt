@@ -13,3 +13,5 @@ E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManegement.
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManegement.Application.Contract\obj\Debug\net6.0\InventoryManegement.Application.Contract.dll
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManegement.Application.Contract\obj\Debug\net6.0\ref\InventoryManegement.Application.Contract.dll
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManegement.Application.Contract\obj\Debug\net6.0\InventoryManegement.Application.Contract.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManegement.Application.Contract\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManegement.Application.Contract\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb

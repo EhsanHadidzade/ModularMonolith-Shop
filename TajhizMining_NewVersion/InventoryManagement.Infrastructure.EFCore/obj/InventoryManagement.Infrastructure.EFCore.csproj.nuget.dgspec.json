@@ -250,6 +250,9 @@
             "projectReferences": {
               "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\01_Framework\\01_Framework.csproj": {
                 "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\01_Framework\\01_Framework.csproj"
+              },
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }

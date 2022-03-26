@@ -45,6 +45,11 @@ namespace InventoryManagement.Application
             return _inventoryRepository.GetDetails(id);
         }
 
+        public List<InventoryOperationViewModel> GetOperationLog(long inventoryId)
+        {
+            return _inventoryRepository.GetOperationLog(inventoryId);
+        }
+
         public OperationResult Increase(IncreaseInventory command)
         {
             var operation=new OperationResult();
@@ -67,7 +72,7 @@ namespace InventoryManagement.Application
                 return operation.Failed(ApplicationMessage.RecordNotFound);
 
             //To DO Get The OperatorId To use There
-            //we put orderId=0 for this method of reduce cuz its operator is admin . there is no need for orderId
+            //we put orderId=1 for this method of reduce cuz its operator is admin . there is no need for orderId
             const long operatorid = 1;
             inventory.Reduce(command.Count,operatorid,command.Description,0);
             _inventoryRepository.Save();
