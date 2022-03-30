@@ -184,27 +184,34 @@ function handleAjaxCall(method, url, data) {
     }
 }
 
-//jQuery.validator.addMethod("maxFileSize",
-//    function (value, element, params) {
-//        var size = element.files[0].size;
-//        var maxSize = 3 * 1024 * 1024;
-//        if (size > maxSize)
-//            return false;
-//        else {
-//            return true;
-//        }
-//    });
-//jQuery.validator.unobtrusive.adapters.addBool("maxFileSize");
+jQuery.validator.addMethod("maxFileSize",
+    function (value, element, params) {
+        var size = element.files[0].size;
+        
+        var maxSize = 5 * 1024 * 1024;
+        debugger;
+        if (size > maxSize)
+            return false;
+        else {
+            return true;
+        }
+    });
+jQuery.validator.unobtrusive.adapters.addBool("maxFileSize");
 
-//jQuery.validator.addMethod("maxFileSize",
-//    function (value, element, params) {
-//        var size = element.files[0].size;
-//        var maxSize = 3 * 1024 * 1024;
-//        debugger;
-//        if (size > maxSize)
-//            return false;
-//        else {
-//            return true;
-//        }
-//    });
-//jQuery.validator.unobtrusive.adapters.addBool("maxFileSize");
+jQuery.validator.addMethod("FileExtentionLimit",
+    function (value, element, params) {
+        var extention = value.split('.')[1];
+
+        debugger;
+        if (extention == "jpg")
+            return true;
+
+        if (extention == "PNG")
+            return true;
+
+        if (extention == "JPEG")
+            return true;
+
+        return false;
+    });
+jQuery.validator.unobtrusive.adapters.addBool("FileExtentionLimit");

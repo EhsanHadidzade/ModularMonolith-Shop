@@ -1,4 +1,6 @@
+using _01_Framework.Application;
 using InventoryManagement.Configuration;
+using ServiceHost.Uploder;
 using ShopManagement.Configuration;
 
 
@@ -15,6 +17,9 @@ var connectionstring = builder.Configuration.GetConnectionString("TA_NewVersion_
 ShopManagement.Configuration.ShopManagementBootstrapper.Configure(builder.Services, connectionstring);
 DiscountManagement.Configuration.DiscountManagementBootstrapper.Configure(builder.Services,connectionstring);
 InventoryManagement.Configuration.InventoryManagementBootstrapper.Configure(builder.Services, connectionstring);
+
+//FileUploader System Configuration
+builder.Services.AddTransient<IFileUploader, FileUploader>();
 
 
 

@@ -61,10 +61,9 @@
                                     <tr>
                                         <td>@item.Id</td>
                                         <td>
-                                            <img src="@item.Picture" style="width: 70px; height: 70px" />
+                                            <img src="/UploadedFiles/@item.Picture" style="width: 70px; height: 70px" />
                                         </td>
                                         <td>@item.Product</td>
-                                        <td>
                                             @if (!item.IsRemoved)
                                             {
                                             <td><i class="fa fa-check fa-3x text-success"></i></td>
@@ -73,7 +72,6 @@
                                             {
                                             <td><i class="fa fa-remove fa-3x text-danger"></i></td>
                                             }
-                                        </td>
                                         <td>@item.CreationDate</td>
                                         <td>
                                             <a href="#showmodal=@Url.Page("./index","Edit",new {id=item.Id})" class="btn btn-warning pull-right m-rl-5">ویرایش</a>

@@ -9,3 +9,4 @@ E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_Framework\obj\Deb
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_Framework\obj\Debug\net6.0\01_Framework.dll
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_Framework\obj\Debug\net6.0\ref\01_Framework.dll
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_Framework\obj\Debug\net6.0\01_Framework.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_Framework\obj\Debug\net6.0\01_Framework.csproj.AssemblyReference.cache

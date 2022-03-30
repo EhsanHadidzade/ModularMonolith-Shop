@@ -1,4 +1,6 @@
-﻿using _01_TajhizMiningQuery.Contracts.ProductCategory;
+﻿using _01_Framework.Application;
+using _01_TajhizMiningQuery.Contracts.Product;
+using _01_TajhizMiningQuery.Contracts.ProductCategory;
 using _01_TajhizMiningQuery.Contracts.Slide;
 using _01_TajhizMiningQuery.Query;
 using Microsoft.EntityFrameworkCore;
@@ -14,7 +16,7 @@ using ShopManagement.Infrastructure.EFCore;
 using ShopManagement.Infrastructure.EFCore.Repository;
 using SM.Application.ShopManagement.Application;
 using SM.Application.ShopManagement.Application.Contracts.ProductCategory;
-using SM.Domain.ShopManagement.Domain.ProductCategory;
+using SM.Domain.ShopManagement.Domain.ProductCategory; 
 
 namespace ShopManagement.Configuration
 {
@@ -36,6 +38,9 @@ namespace ShopManagement.Configuration
 
             services.AddTransient<ISlideQuery, SlideQuery>();
             services.AddTransient<IproductCategoryQuery, productCategoryQuery>();
+            services.AddTransient<IProductQuery, ProductQuery>();
+
+
 
 
             services.AddDbContext<TajhizMiningContext>(x => x.UseSqlServer(connectionstring));

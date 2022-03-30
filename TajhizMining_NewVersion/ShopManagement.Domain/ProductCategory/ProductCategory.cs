@@ -43,7 +43,10 @@ namespace SM.Domain.ShopManagement.Domain.ProductCategory
         {
             Name = name;
             Description = description;
+
+            if(!string.IsNullOrWhiteSpace(picture))
             Picture = picture;
+
             PictureAlt = pictureAlt;
             PictureTitle = pictureTitle;
             Keyword = keyword;

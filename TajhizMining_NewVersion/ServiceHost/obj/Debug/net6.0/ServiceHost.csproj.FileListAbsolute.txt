@@ -296,3 +296,4 @@ E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debu
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\InventoryManagement.Domain.pdb
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\InventoryManagement.Infrastructure.EFCore.pdb
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\bin\Debug\net6.0\InventoryManegement.Application.Contract.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ServiceHost\obj\Debug\net6.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs

@@ -19,3 +19,15 @@ E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\obj\Debug\net6.0\01_TajhizMiningQuery.dll
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\obj\Debug\net6.0\ref\01_TajhizMiningQuery.dll
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\obj\Debug\net6.0\01_TajhizMiningQuery.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\DiscountManagement.Application.Contract.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\DiscountManagement.Domain.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\InventoryManagement.Domain.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\InventoryManagement.Infrastructure.EFCore.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\InventoryManegement.Application.Contract.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\InventoryManagement.Infrastructure.EFCore.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\DiscountManagement.Application.Contract.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\DiscountManagement.Domain.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\InventoryManagement.Domain.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\InventoryManegement.Application.Contract.pdb

@@ -44,6 +44,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.3, )"
@@ -96,6 +104,12 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CustomerDiscount.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CustomerDiscount.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
+              },
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
+              },
               "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ShopManagement.Infrastructure\\ShopManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ShopManagement.Infrastructure\\ShopManagement.Infrastructure.EFCore.csproj"
               }
@@ -965,6 +979,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

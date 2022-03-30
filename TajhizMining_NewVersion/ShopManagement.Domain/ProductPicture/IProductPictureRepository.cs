@@ -7,5 +7,6 @@ namespace ShopManagement.Domain.ProductPicture
     {
         EditProductPicture GetDetails(long id);
         List<ProductPictureViewModel> Search(ProductPictureSearchModel searchmodel);
+        ProductPicture GetProductPictureWithProductAndCategoryById(long id);
     }
 }

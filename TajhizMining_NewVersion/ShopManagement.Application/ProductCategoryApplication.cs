@@ -12,10 +12,12 @@ namespace SM.Application.ShopManagement.Application
     public class ProductCategoryApplication : IProductCategoryApplication
     {
         private readonly IProductCategoryRepository _productCategoryRepository;
+        private readonly IFileUploader _fileUploader;
 
-        public ProductCategoryApplication(IProductCategoryRepository productCategoryRepository)
+        public ProductCategoryApplication(IProductCategoryRepository productCategoryRepository, IFileUploader fileUploader)
         {
             _productCategoryRepository = productCategoryRepository;
+            _fileUploader = fileUploader;
         }
 
         public OperationResult Create(CreateProductCategory command)
@@ -26,7 +28,8 @@ namespace SM.Application.ShopManagement.Application
                 operation.Failed(ApplicationMessage.DuplicatedRecord);
             }
             var slug = command.Slug.Slugify();
-            var productcategory = new ProductCategory(command.Name, command.Description, command.Picture,
+            var filename = _fileUploader.Upload(command.Picture, slug);
+            var productcategory = new ProductCategory(command.Name, command.Description, filename,
                 command.PictureAlt, command.PictureTitle, command.Keyword, command.MetaDescription,
                slug);
 
@@ -55,13 +58,14 @@ namespace SM.Application.ShopManagement.Application
             }
 
             var slug=command.Slug.Slugify();
-            productcategory.Edit(command.Name, command.Description, command.Picture,
+
+            var filename = _fileUploader.Upload(command.Picture, slug);
+            productcategory.Edit(command.Name, command.Description, filename,
                 command.PictureAlt, command.PictureTitle, command.Keyword, command.MetaDescription,
                slug);
             _productCategoryRepository.Save();
 
             return operation.Succedded();
-
         }
 
         public List<ProductCategoryViewModel> GetAllProductCategories()

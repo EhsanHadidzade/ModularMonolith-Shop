@@ -1,0 +1,12 @@
+﻿@model List<_01_TajhizMiningQuery.Contracts.ProductCategory.ProductCategoryForHeaderQueryModel>
+
+<div class="widget_list widget_categories">
+    <h2>دسته های محصولات</h2>
+    <ul>
+        @foreach(var item in Model)
+        {
+            <li><a href="@item.Slug">@item.Name</a></li>
+        }
+
+    </ul>
+</div>

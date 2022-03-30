@@ -12,19 +12,25 @@ namespace ShopManagement.Application
     public class SlideApplication : ISlideApplication
     {
         private readonly ISlideRepository _slideRepository;
+        private readonly IFileUploader _fileUploader;
 
-        public SlideApplication(ISlideRepository slideRepository)
+        public SlideApplication(ISlideRepository slideRepository, IFileUploader fileUploader)
         {
             _slideRepository = slideRepository;
+            _fileUploader = fileUploader;
         }
 
         public OperationResult Create(CreateSlide command)
         {
             var operation = new OperationResult();
-            if(_slideRepository.IsExists(x=>x.Picture==command.Picture))
-                return operation.Failed(ApplicationMessage.DuplicatedRecord);
+            //if(_slideRepository.IsExists(x=>x.Picture==command.Picture))
+            //    return operation.Failed(ApplicationMessage.DuplicatedRecord);
 
-            var slide = new Slide(command.Picture, command.PictureAlt, command.PictureTitle,
+            //AboutUploading
+            var picturePath = _fileUploader.Upload(command.Picture, "Slides");
+
+            //Creating
+            var slide = new Slide(picturePath, command.PictureAlt, command.PictureTitle,
                 command.Heading, command.Title, command.Text, command.BtnText);
             _slideRepository.Create(slide);
             _slideRepository.Save();
@@ -39,7 +45,11 @@ namespace ShopManagement.Application
             if(slide==null)
                 return operation.Failed(ApplicationMessage.RecordNotFound);
 
-            slide.Edit(command.Picture, command.PictureAlt, command.PictureTitle,
+            //AboutUploading
+            var picturePath = _fileUploader.Upload(command.Picture, "Slides");
+
+            //Editing
+            slide.Edit(picturePath, command.PictureAlt, command.PictureTitle,
                 command.Heading, command.Title, command.Text, command.BtnText);
             _slideRepository.Save();
             return operation.Succedded();

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using _01_TajhizMiningQuery.Contracts.Product;
 
 namespace _01_TajhizMiningQuery.Contracts.ProductCategory
 {
@@ -10,5 +6,11 @@ namespace _01_TajhizMiningQuery.Contracts.ProductCategory
     {
         List<ProductCategoryForHeaderQueryModel> GetProductCategoriesForHeader();
         List<ProductCategoryForBodyQueryModel> GetProductCategoriesForBody();
+
+        //To Use Product Categories In Shop Page
+        List<ProductCategoryForShopQueryModel> GetAllCategoriesForShop();
+
+
+
     }
 }

@@ -42,7 +42,10 @@ namespace ShopManagement.Domain.Product
             Code = code;
             ShortDescription = shortDescription;
             Description = description;
+
+            if(!string.IsNullOrEmpty(picture))
             Picture = picture;
+
             PictureAlt = pictureAlt;
             PictureTitle = pictureTitle;
             Slug = slug;

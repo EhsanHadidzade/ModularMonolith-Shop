@@ -15,5 +15,6 @@ namespace SM.Domain.ShopManagement.Domain.ProductCategory
         List<ProductCategoryViewModel> GetAllProductCategories();
         EditProductCategory GetDetails(long id);
         List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchmodel);
+        string GetCategorySlugByCategoryId(long categoryId);
     }
 }

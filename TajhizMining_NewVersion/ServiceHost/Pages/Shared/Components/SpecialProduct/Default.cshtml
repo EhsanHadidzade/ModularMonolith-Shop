@@ -1,0 +1,74 @@
+﻿@model List<_01_TajhizMiningQuery.Contracts.Product.ProductQueryModel>
+
+<!--featured product area start-->
+<section class="featured_product_area mb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section_title">
+                    <h2>محصولات ویژه</h2>
+                </div>
+            </div>
+        </div>
+        <div class="product_carousel product_column5 owl-carousel ">
+            @if (Model != null)
+            {
+                @foreach (var product in Model)
+                {
+                    <article class="single_product">
+                        <figure>
+                            <div class="product_thumb">
+                                <a class="primary_img" href="product-countdown.html"><img src="/UploadedFiles/@product.Picture" alt="@product.PictureAlt" title="@product.PictureTitle"></a>
+                                <a class="secondary_img" href="product-countdown.html"><img src="/UploadedFiles/@product.Picture" alt="@product.PictureAlt" title="@product.PictureTitle"></a>
+                                <div class="label_product">
+                                    <span class="label_sale">فروش</span>
+                                </div>
+                                <div class="action_links">
+                                    <ul>
+                                        <li class="wishlist"><a href="wishlist.html" title="افزودن به علاقه‌مندی‌ها"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                                        <li class="compare"><a href="#" title="مقایسه"><span class="ion-levels"></span></a></li>
+                                        <li class="quick_button">
+                                            <a href="#" data-toggle="modal" data-target="#modal_box" title="مشاهده سریع"> <span class="ion-ios-search-strong"></span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="add_to_cart">
+                                    <a href="cart.html" title="افزودن به سبد">افزودن به سبد</a>
+                                </div>
+                                <div class="product_timing">
+                                    <div data-countdown="@product.DiscountExpireDate"></div>
+                                </div>
+                            </div>
+                            <figcaption class="product_content">
+                                <div class="price_box">
+                                    @if (product.HasDiscount)
+                                    {
+                                        <span class="old_price">@product.OldPrice تومان</span>
+                                        <span class="current_price">@product.Price تومان</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="current_price">@product.Price تومان</span>
+
+                                    }
+                                    <h3 class="product_name"><a href="product-countdown.html">@product.Name</a></h3>
+                                    </div>
+                            </figcaption>
+                        </figure>
+                    </article>
+                }
+            }
+        </div>
+    </div>
+</section>
+<!--featured product area end-->
+<script>
+   $(document).ready(function(){
+
+  $('.preventloop').slick({
+  infinite: false,
+  slidesToShow: 3,
+  slidesToScroll: 3
+});
+});
+</script>

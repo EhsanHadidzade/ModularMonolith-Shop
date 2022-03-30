@@ -1,0 +1,52 @@
+﻿@model List<_01_TajhizMiningQuery.Contracts.Product.ProductQueryModel>
+
+
+
+<div class="small_product_area">
+    <div class="section_title">
+        <h2><span> محصولات جدید </span></h2>
+    </div>
+    <div class="small_product_container small_product_active">
+        @foreach (var product in Model)
+        {
+            <article class="single_product">
+                <figure>
+                    <div class="product_thumb">
+                        <a class="primary_img" href="product-details.html"><img src="/UploadedFiles/@product.Picture" alt="@product.PictureAlt" title="@product.PictureTitle"></a>
+                        <a class="secondary_img" href="product-details.html"><img src="/UploadedFiles/@product.Picture" alt="@product.PictureAlt" title="@product.PictureTitle"></a>
+                    </div>
+                    <figcaption class="product_content">
+                        <div class="price_box">
+                            @if (product.HasDiscount)
+                            {
+                                <span class="old_price">@product.OldPrice تومان</span>
+                                <span class="current_price">@product.Price تومان</span>
+                            }
+                            else
+                            {
+                                <span class="current_price">@product.Price تومان</span>
+
+                            }
+                        </div>
+                        <h3 class="product_name"><a href="product-details.html">@product.Name</a></h3>
+                        <div class="product_ratings">
+                            <ul>
+                                <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                            </ul>
+                        </div>
+                    </figcaption>
+                </figure>
+            </article>
+        }
+
+    </div>
+</div>
+<script>
+    $(document).ready(function(){
+
+    })
+</script>
