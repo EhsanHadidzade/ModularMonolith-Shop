@@ -1,18 +1,41 @@
 ﻿@model List<_01_TajhizMiningQuery.Contracts.ProductCategory.ProductCategoryForBodyQueryModel>
 
-    @foreach (var item in Model)
-{
-   
-    <div class="col-lg-2">
-        <article class="single_category">
-            <figure>
-                <div class="category_thumb">
-                    <a href="@item.Slug"><img src="/UploadedFiles/@item.Picture" alt="@item.PictureAlt" title="@item.PictureTitle"></a>
+
+
+
+
+<section class="top_category_product mb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-3">
+                <div class="top_category_header">
+                    <h3>دسته بندی محصولات فروشگاه</h3>
+                    <a href="shop.html">نمایش همه دسته ها</a>
                 </div>
-                <figcaption class="category_name">
-                    <h3><a href="shop.html">@item.Name</a></h3>
-                </figcaption>
-            </figure>
-        </article>
+            </div>
+            <div class="col-lg-10 col-md-9">
+                <div class="row">
+                    <div class="top_category_container category_column5 owl-carousel">
+                        @foreach (var item in Model)
+                        {
+
+                            <div class="col-lg-2">
+                                <article class="single_category">
+                                    <figure>
+                                        <div class="category_thumb">
+                                            <a asp-page="/product/index" asp-route-id="@item.Slug"><img src="/UploadedFiles/@item.Picture" alt="@item.PictureAlt" title="@item.PictureTitle"></a>
+                                        </div>
+                                        <figcaption class="category_name">
+                                            <h3><a href="shop.html">@item.Name</a></h3>
+                                        </figcaption>
+                                    </figure>
+                                </article>
+                            </div>
+                        }
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
-}
+</section>

@@ -1,0 +1,281 @@
+﻿@page "{id}"
+@model ServiceHost.Pages.Blog.BlogDetailsModel
+@inject _01_TajhizMiningQuery.Contracts.Comment.ICommentQuery commentquey
+@{
+    ViewData["Title"] = Model.Article.Title;
+    ViewData["Keywords"] = Model.Article.Keywords;
+    ViewData["metadescription"] = Model.Article.MetaDescription;
+}
+<!--breadcrumbs area start-->
+<div class="breadcrumbs_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadcrumb_content">
+                    <ul>
+                        <li><a href="/">خانه</a></li>
+                        <li>جزئیات مطلب بلاگ</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--breadcrumbs area end-->
+<!--blog body area start-->
+<div class="blog_details mt-60">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-12">
+                <div class="blog_sidebar_widget">
+                    <div class="widget_list widget_search">
+                        <h3>جستجو</h3>
+                        <form asp-page="/blog/index" method="get">
+                            <input name="searchValue" placeholder="جستجو ..." type="text">
+                            <button type="submit">جستجو</button>
+                        </form>
+                    </div>
+                    <div class="widget_list comments">
+                        <h3>دیدگاه‌های جدید</h3>
+                        <div class="post_wrapper">
+                            <div class="post_thumb">
+                                <a href="blog-details.html"><img src="/theme/assets/img/blog/comment2.png.jpg" alt=""></a>
+                            </div>
+                            <div class="post_info">
+                                <span> <a href="#">دمو</a> می‌گوید:</span>
+                                <a href="blog-details.html">لورم ایپسوم متن ساختگی</a>
+                            </div>
+                        </div>
+                        <div class="post_wrapper">
+                            <div class="post_thumb">
+                                <a href="blog-details.html"><img src="/theme/assets/img/blog/comment2.png.jpg" alt=""></a>
+                            </div>
+                            <div class="post_info">
+                                <span><a href="#">مدیر</a> می‌گوید:</span>
+                                <a href="blog-details.html">لورم ایپسوم متن ساختگی</a>
+                            </div>
+                        </div>
+                        <div class="post_wrapper">
+                            <div class="post_thumb">
+                                <a href="blog-details.html"><img src="/theme/assets/img/blog/comment2.png.jpg" alt=""></a>
+                            </div>
+                            <div class="post_info">
+                                <span><a href="#">دمو</a> می‌گوید:</span>
+                                <a href="blog-details.html">لورم ایپسوم متن ساختگی</a>
+                            </div>
+                        </div>
+                        <div class="post_wrapper">
+                            <div class="post_thumb">
+                                <a href="blog-details.html"><img src="/theme/assets/img/blog/comment2.png.jpg" alt=""></a>
+                            </div>
+                            <div class="post_info">
+                                <span><a href="#">مدیر</a> می‌گوید:</span>
+                                <a href="blog-details.html">لورم ایپسوم متن ساختگی</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget_list widget_post">
+                        <h3>مطالب اخیر</h3>
+                        @if (Model.LatestArticles.Count == 0)
+                        {
+
+                        }
+                        else
+                        {
+                            @foreach (var item in Model.LatestArticles)
+                            {
+                                <div class="post_wrapper">
+                                    <div class="post_thumb">
+                                        <a asp-page="/blog/blogdetails" asp-route-id="@item.Slug"><img src="/UploadedFiles/@item.Picture" alt="@item.PictureAlt" title="@item.PictureTitle"></a>
+                                    </div>
+                                    <div class="post_info">
+                                        <h3><a asp-page="/blog/blogdetails" asp-route-id="@item.Slug">@item.Title</a></h3>
+                                        <span>@item.PublishDate </span>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                    <div class="widget_list widget_categories">
+                        <h3>بایگانی</h3>
+                        <ul>
+                            <li><a href="#">آذر 1398</a></li>
+                        </ul>
+                    </div>
+                    <div class="widget_list widget_categories">
+                        <h3>دسته ها</h3>
+                        <ul>
+                            @foreach (var item in Model.Categories)
+                            {
+                                <li><a asp-page="/blog/index" asp-route-id="@item.Name">@item.Name</a></li>
+                            }
+                        </ul>
+                    </div>
+                    <div class="widget_list widget_tag">
+                        <h3>برچسب های محصولات</h3>
+                        <div class="tag_widget">
+                            <ul>
+                                @foreach (var tag in Model.Article.KeywordsList)
+                                {
+                                    <li><a asp-page="/blog/index">@tag</a></li>
+
+                                }
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-9 col-md-12">
+                <!--blog grid area start-->
+                <div class="blog_wrapper">
+                    <article class="single_blog">
+                        <figure>
+                            <div class="post_header">
+                                <h1 class="post_title" style="font-size:30px">@Model.Article.Title</h1>
+                                <div class="blog_meta">
+                                    <span class="author">ارسال توسط : <a href="#">مدیر</a> / </span>
+                                    <span class="post_date">در : <a href="#">@Model.Article.PublishDate</a> /</span>
+                                    <span class="post_category">در : <a href="#">شرکت، عکس، مسافرت</a></span>
+                                </div>
+                            </div>
+                            <div class="blog_thumb">
+                                <a href="#"><img src="/UploadedFiles/@Model.Article.Picture" alt="@Model.Article.PictureAlt" title="@Model.Article.PictureTitle"></a>
+                            </div>
+                            <figcaption class="blog_content">
+                                <div class="post_content">
+                                    <p>@Model.Article.ShortDescription</p>
+                                    <blockquote>
+                                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان</p>
+                                    </blockquote>
+                                    <p>@Html.Raw(Model.Article.Description)</p>
+                                </div>
+                                <div class="entry_content">
+                                    <div class="post_meta">
+                                        <span>برچسب ها: </span>
+                                        @foreach (var tag in Model.Article.KeywordsList)
+                                        {
+                                            <span><a href="/blog/index?searchValue=@tag">@tag</a></span>
+                                        }
+                                    </div>
+                                    <div class="social_sharing">
+                                        <p>اشتراک گذاری این مطلب:</p>
+                                        <ul>
+                                            <li><a href="#" title="facebook"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#" title="twitter"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#" title="pinterest"><i class="fa fa-pinterest"></i></a></li>
+                                            <li><a href="#" title="google+"><i class="fa fa-google-plus"></i></a></li>
+                                            <li><a href="#" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <div class="related_posts">
+                        <h3>مطالب مرتبط</h3>
+                        <div class="row">
+                            @foreach (var item in Model.RelatedArticles)
+                            {
+                                <div class="col-lg-4 col-md-6">
+                                    <article class="single_related">
+                                        <figure>
+                                            <div class="related_thumb">
+                                                <img src="/UploadedFiles/@item.Picture" alt="@item.PictureAlt" title="@item.Title">
+                                            </div>
+                                            <figcaption class="related_content">
+                                                <div class="blog_meta">
+                                                    <span class="author">توسط: <a>مدیر</a> / </span>
+                                                    <span class="post_date"> @item.PublishDate	</span>
+                                                </div>
+                                                <h4><a asp-page="/blog/blogdetails" asp-route-id="@item.Slug">@item.Title</a></h4>
+                                            </figcaption>
+                                        </figure>
+                                    </article>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                    <div class="comments_box">
+                        <h3>@Model.Article.Comments.Count دیدگاه</h3>
+                        @foreach (var comment in Model.Article.Comments.Where(x => x.ParentId == 0).ToList())
+                        {
+                            <div class="comment_list">
+                                <div class="comment_thumb">
+                                    <img src="/theme/assets/img/blog/comment3.png.jpg" alt="">
+                                </div>
+                                <div class="comment_content">
+                                    <div class="comment_meta">
+                                        <h5><p href="#">@comment.Name</p></h5>
+                                        <span>@comment.CreationDate</span>
+                                    </div>
+                                    <p>@comment.Message</p>
+                                    <div class="comment_reply">
+                                        <a href="#section" id="Answerbtn" onclick="ToFillParentId(@comment.Id)">پاسخ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            @if (Model.Article.Comments.Any(x => x.ParentId == comment.Id))
+                            {
+                                <div class="comment_list list_two">
+                                    <div class="comment_thumb">
+                                        <img src="/theme/assets/img/blog/comment3.png.jpg" alt="">
+                                    </div>
+                                    <div class="comment_content">
+                                        <div class="comment_meta">
+                                            <h5><a href="#">@commentquey.GetChildCommentWithParentId(comment.Id).Name</a></h5>
+                                            <span>@commentquey.GetChildCommentWithParentId(comment.Id).CreationDate</span>
+                                        </div>
+                                        <p>@commentquey.GetChildCommentWithParentId(comment.Id).Message</p>
+                                        <div class="comment_reply">
+                                            <strong >در پاسخ به @comment.Name</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+
+                        }
+                    </div>
+                    <div class="comments_form" id="section">
+                        <h3>یک پاسخ ارسال کنید </h3>
+                        <p>ایمیل شما منتشر نخواهد شد. فیلد های الزامی با * مشخص شده اند</p>
+                        <form method="post">
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="review_comment">دیدگاه </label>
+                                    <textarea asp-for="Command.Message" id="review_comment" placeholder="دیدگاه خود را وارد کنید"></textarea>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <label for="author">نام</label>
+                                    <input id="author" asp-for="Command.Name" type="text" placeholder="نام خود را وارد کنید">
+
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <label for="email">ایمیل </label>
+                                    <input id="email" asp-for="Command.Email" type="email" dir="ltr" placeholder="مثال : Mohsen@gmail.com">
+                                </div>
+                            </div>
+                            <input type="hidden" asp-for="Command.OwnerRecordId" value="@Model.Article.Id" />
+                            <input type="hidden" name="articleslug" value="@Model.Article.Slug" />
+                            <input type="hidden" asp-for="Command.ParentId" id="commentParentId" value="" />
+                            <button class="button" type="submit">ارسال دیدگاه</button>
+                        </form>
+                    </div>
+
+                </div>
+                <!--blog grid area start-->
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--blog section area end-->
+<script>
+    function ToFillParentId(id){
+        $("#commentParentId").val(id);
+           $("#review_comment").attr("placeholder", "اکنون میتوانید پاسخ کاربر مورد نظر را بدهید"+id)
+
+
+    }
+</script>

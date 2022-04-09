@@ -3,6 +3,6 @@
     @foreach (var item in Model)
 {
     <li class="menu_item_children">
-        <a href="@item.Slug">@item.Name</a>
+        <a asp-page="/product/index" asp-route-id="@item.Slug">@item.Name</a>
     </li>
 }

@@ -22,6 +22,7 @@ namespace DiscountManagement.Domain.CustomerDiscount
             StartDate = startDate;
             EndDate = endDate;
             Reason = reason;
+           
         }
 
         public void Edit(long productId, int discountRate, DateTime startDate, DateTime endDate, string reason)

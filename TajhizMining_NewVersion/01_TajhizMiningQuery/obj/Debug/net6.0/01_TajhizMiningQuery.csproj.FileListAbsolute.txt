@@ -31,3 +31,15 @@ E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\DiscountManagement.Domain.pdb
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\InventoryManagement.Domain.pdb
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\InventoryManegement.Application.Contract.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\CommentManagement.Application.Contract.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\CommentManagement.Domain.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\CommentManagement.Infrastructure.EFCore.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\CommentManagement.Infrastructure.EFCore.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\CommentManagement.Application.Contract.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\CommentManagement.Domain.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\ArticleManagement.Application.Contract.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\ArticleManagement.Domain.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\ArticleManagement.Infrastructure.EFCore.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\ArticleManagement.Infrastructure.EFCore.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\ArticleManagement.Application.Contract.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\01_TajhizMiningQuery\bin\Debug\net6.0\ArticleManagement.Domain.pdb

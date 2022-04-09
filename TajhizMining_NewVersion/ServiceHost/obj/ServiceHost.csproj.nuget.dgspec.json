@@ -104,6 +104,12 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleCategoryManagement.Infrastructure.EFCore\\ArticleManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleCategoryManagement.Infrastructure.EFCore\\ArticleManagement.Infrastructure.EFCore.csproj"
+              },
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj"
+              },
               "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CustomerDiscount.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CustomerDiscount.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
               },
@@ -125,6 +131,703 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleCategoryManagement.Configuration\\ArticleManagement.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleCategoryManagement.Configuration\\ArticleManagement.Configuration.csproj",
+        "projectName": "ArticleManagement.Configuration",
+        "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleCategoryManagement.Configuration\\ArticleManagement.Configuration.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleCategoryManagement.Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\01_TajhizMiningQuery\\01_TajhizMiningQuery.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\01_TajhizMiningQuery\\01_TajhizMiningQuery.csproj"
+              },
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleCategoryManagement.Infrastructure.EFCore\\ArticleManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleCategoryManagement.Infrastructure.EFCore\\ArticleManagement.Infrastructure.EFCore.csproj"
+              },
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Application.Contract\\ArticleManagement.Application.Contract.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Application.Contract\\ArticleManagement.Application.Contract.csproj"
+              },
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Application\\ArticleManagement.Application.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Application\\ArticleManagement.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleCategoryManagement.Infrastructure.EFCore\\ArticleManagement.Infrastructure.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleCategoryManagement.Infrastructure.EFCore\\ArticleManagement.Infrastructure.EFCore.csproj",
+        "projectName": "ArticleManagement.Infrastructure.EFCore",
+        "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleCategoryManagement.Infrastructure.EFCore\\ArticleManagement.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleCategoryManagement.Infrastructure.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Domain\\ArticleManagement.Domain.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Domain\\ArticleManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Application.Contract\\ArticleManagement.Application.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Application.Contract\\ArticleManagement.Application.Contract.csproj",
+        "projectName": "ArticleManagement.Application.Contract",
+        "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Application.Contract\\ArticleManagement.Application.Contract.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Application.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\01_Framework\\01_Framework.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\01_Framework\\01_Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Application\\ArticleManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Application\\ArticleManagement.Application.csproj",
+        "projectName": "ArticleManagement.Application",
+        "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Application\\ArticleManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Application.Contract\\ArticleManagement.Application.Contract.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Application.Contract\\ArticleManagement.Application.Contract.csproj"
+              },
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Domain\\ArticleManagement.Domain.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Domain\\ArticleManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Domain\\ArticleManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Domain\\ArticleManagement.Domain.csproj",
+        "projectName": "ArticleManagement.Domain",
+        "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Domain\\ArticleManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\01_Framework\\01_Framework.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\01_Framework\\01_Framework.csproj"
+              },
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Application.Contract\\ArticleManagement.Application.Contract.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleManagement.Application.Contract\\ArticleManagement.Application.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj",
+        "projectName": "CommentManagement.Application.Contract",
+        "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Application.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\01_Framework\\01_Framework.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\01_Framework\\01_Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Application\\CommentManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Application\\CommentManagement.Application.csproj",
+        "projectName": "CommentManagement.Application",
+        "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Application\\CommentManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj"
+              },
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Domain\\CommentManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Configuration\\CommentManagement.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Configuration\\CommentManagement.Configuration.csproj",
+        "projectName": "CommentManagement.Configuration",
+        "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Configuration\\CommentManagement.Configuration.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\01_TajhizMiningQuery\\01_TajhizMiningQuery.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\01_TajhizMiningQuery\\01_TajhizMiningQuery.csproj"
+              },
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj"
+              },
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Application\\CommentManagement.Application.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Application\\CommentManagement.Application.csproj"
+              },
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Domain\\CommentManagement.Domain.csproj"
+              },
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Domain\\CommentManagement.Domain.csproj",
+        "projectName": "CommentManagement.Domain",
+        "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Domain\\CommentManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\01_Framework\\01_Framework.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\01_Framework\\01_Framework.csproj"
+              },
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj",
+        "projectName": "CommentManagement.Infrastructure.EFCore",
+        "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Infrastructure.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Domain\\CommentManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -880,6 +1583,12 @@
             "projectReferences": {
               "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\01_TajhizMiningQuery\\01_TajhizMiningQuery.csproj": {
                 "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\01_TajhizMiningQuery\\01_TajhizMiningQuery.csproj"
+              },
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleCategoryManagement.Configuration\\ArticleManagement.Configuration.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleCategoryManagement.Configuration\\ArticleManagement.Configuration.csproj"
+              },
+              "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Configuration\\CommentManagement.Configuration.csproj": {
+                "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Configuration\\CommentManagement.Configuration.csproj"
               },
               "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CustomerDiscount.Infrastructure.Configuration\\DiscountManagement.Configuration.csproj": {
                 "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CustomerDiscount.Infrastructure.Configuration\\DiscountManagement.Configuration.csproj"

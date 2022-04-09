@@ -18,7 +18,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
 
         public EditProduct GetDetails(long id)
         {
-            return _context.Products.Select(p => new EditProduct
+            var product= _context.Products.Select(p => new EditProduct
             {
                 Id = p.Id,
                 Name = p.Name,
@@ -34,6 +34,11 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 ShortDescription = p.ShortDescription,
                 UnitPrice = p.UnitPrice
             }).FirstOrDefault(p => p.Id == id);
+
+            if (product == null)
+                throw new ArgumentNullException();
+
+            return product;
         }
 
         public List<ProductViewModel> GetProducts()
@@ -47,7 +52,12 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
 
         public Product GetProductWithCategoryByProductId(long productId)
         {
-            return _context.Products.Include(x=>x.ProductCategory).FirstOrDefault(x=>x.Id==productId);
+            var product= _context.Products.Include(x=>x.ProductCategory).FirstOrDefault(x=>x.Id==productId);
+
+            if (product == null)
+                throw new ArgumentNullException();
+
+            return product;
         }
 
         public List<ProductViewModel> Search(ProductSearchModel searchModel)

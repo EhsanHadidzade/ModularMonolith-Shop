@@ -1,0 +1,26 @@
+﻿@model List<_01_TajhizMiningQuery.Contracts.ArticleCategory.ArticleCategoryQueryModel>
+
+
+
+<ul>
+    <li>
+        <a href="./index">خانه</a>
+    </li>
+    <li class="mega_items">
+        <a asp-page="/product/index">فروشگاه <i class="fa fa-angle-down"></i></a>
+    </li>
+    <li>
+        <a asp-page="/blog/index">بلاگ<i class="fa fa-angle-down"></i></a>
+        <ul class="sub_menu">
+            @if (Model != null)
+            {
+                @foreach (var category in Model)
+                {
+                    <li><a asp-page="/blog/index"asp-route-id="@category.Slug" > @category.Name</a></li>
+
+                }
+            }
+        </ul>
+    </li>
+    <li><a href="contact.html"> تماس با ما</a></li>
+</ul>

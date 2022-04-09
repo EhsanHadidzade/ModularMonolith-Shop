@@ -65,7 +65,7 @@
 	$('.product_column5').on('changed.owl.carousel initialized.owl.carousel', function (event) {
 		$(event.target).find('.owl-item').removeClass('last').eq(event.item.index + event.page.size - 1).addClass('last')
 	}).owlCarousel({
-		loop: true,
+		loop: false,
 		rtl: true,
 		nav: true,
 		autoplay: false,
@@ -184,7 +184,7 @@
 	$('.product_column4').on('changed.owl.carousel initialized.owl.carousel', function (event) {
 		$(event.target).find('.owl-item').removeClass('last').eq(event.item.index + event.page.size - 1).addClass('last')
 	}).owlCarousel({
-		loop: true,
+		loop: false,
 		rtl: true,
 		nav: true,
 		autoplay: false,
@@ -220,7 +220,7 @@
 	$('.product_deals_column4').on('changed.owl.carousel initialized.owl.carousel', function (event) {
 		$(event.target).find('.owl-item').removeClass('last').eq(event.item.index + event.page.size - 1).addClass('last')
 	}).owlCarousel({
-		loop: true,
+		loop: false,
 		rtl: true,
 		nav: true,
 		autoplay: false,
@@ -253,7 +253,7 @@
 	$('.product_column1').on('changed.owl.carousel initialized.owl.carousel', function (event) {
 		$(event.target).find('.owl-item').removeClass('last').eq(event.item.index + event.page.size - 1).addClass('last')
 	}).owlCarousel({
-		loop: true,
+		loop: false,
 		rtl: true,
 		nav: true,
 		autoplay: false,
@@ -285,7 +285,7 @@
 	$('.category_column5').on('changed.owl.carousel initialized.owl.carousel', function (event) {
 		$(event.target).find('.owl-item').removeClass('last').eq(event.item.index + event.page.size - 1).addClass('last')
 	}).owlCarousel({
-		loop: true,
+		loop: false,
 		rtl: true,
 		nav: false,
 		autoplay: false,
@@ -377,7 +377,7 @@
 
 	/*---testimonial active activation---*/
 	$('.testimonial_active').owlCarousel({
-		loop: true,
+		loop: false,
 		rtl: true,
 		nav: false,
 		autoplay: false,
@@ -389,7 +389,7 @@
 
 	/*---blog column4 activation---*/
 	$('.blog_column4').owlCarousel({
-		loop: true,
+		loop: false,
 		rtl: true,
 		nav: true,
 		autoplay: false,
@@ -416,7 +416,7 @@
 
 	/*---blog column1 activation---*/
 	$('.blog_column1').owlCarousel({
-		loop: true,
+		loop: false,
 		rtl: true,
 		nav: true,
 		autoplay: false,
@@ -486,7 +486,7 @@
 
 	/*---single product activation---*/
 	$('.single-product-active').owlCarousel({
-		loop: true,
+		loop: false,
 		rtl: true,
 		nav: true,
 		autoplay: false,
@@ -516,7 +516,7 @@
 
 	/*---product navactive activation---*/
 	$('.product_navactive').owlCarousel({
-		loop: true,
+		loop: false,
 		rtl: true,
 		nav: true,
 		autoplay: false,

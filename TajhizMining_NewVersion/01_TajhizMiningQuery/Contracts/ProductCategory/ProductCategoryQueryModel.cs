@@ -30,6 +30,6 @@ namespace _01_TajhizMiningQuery.Contracts.ProductCategory
         public string Slug { get; set; }
         public string Keywords { get; set; }
         public string MetaDescription { get; set; }
-        //public List<ProductQueryModel> Products { get; set; }
+        public List<string> KeywordsList { get; set; }
     }
 }

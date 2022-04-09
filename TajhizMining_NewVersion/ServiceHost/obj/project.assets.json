@@ -3111,6 +3111,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "ArticleManagement.Infrastructure.EFCore": "1.0.0",
+          "CommentManagement.Infrastructure.EFCore": "1.0.0",
           "DiscountManagement.Infrastructure.EFCore": "1.0.0",
           "InventoryManagement.Infrastructure.EFCore": "1.0.0",
           "ShopManagement.Infrastructure.EFCore": "1.0.0"
@@ -3120,6 +3122,153 @@
         },
         "runtime": {
           "bin/placeholder/01_TajhizMiningQuery.dll": {}
+        }
+      },
+      "ArticleManagement.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ArticleManagement.Application.Contract": "1.0.0",
+          "ArticleManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ArticleManagement.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ArticleManagement.Application.dll": {}
+        }
+      },
+      "ArticleManagement.Application.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01_Framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ArticleManagement.Application.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ArticleManagement.Application.Contract.dll": {}
+        }
+      },
+      "ArticleManagement.Configuration/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01_TajhizMiningQuery": "1.0.0",
+          "ArticleManagement.Application": "1.0.0",
+          "ArticleManagement.Application.Contract": "1.0.0",
+          "ArticleManagement.Infrastructure.EFCore": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ArticleManagement.Configuration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ArticleManagement.Configuration.dll": {}
+        }
+      },
+      "ArticleManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01_Framework": "1.0.0",
+          "ArticleManagement.Application.Contract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ArticleManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ArticleManagement.Domain.dll": {}
+        }
+      },
+      "ArticleManagement.Infrastructure.EFCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ArticleManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3"
+        },
+        "compile": {
+          "bin/placeholder/ArticleManagement.Infrastructure.EFCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ArticleManagement.Infrastructure.EFCore.dll": {}
+        }
+      },
+      "CommentManagement.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CommentManagement.Application.Contract": "1.0.0",
+          "CommentManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Application.dll": {}
+        }
+      },
+      "CommentManagement.Application.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01_Framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Application.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Application.Contract.dll": {}
+        }
+      },
+      "CommentManagement.Configuration/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01_TajhizMiningQuery": "1.0.0",
+          "CommentManagement.Application": "1.0.0",
+          "CommentManagement.Application.Contract": "1.0.0",
+          "CommentManagement.Domain": "1.0.0",
+          "CommentManagement.Infrastructure.EFCore": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Configuration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Configuration.dll": {}
+        }
+      },
+      "CommentManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01_Framework": "1.0.0",
+          "CommentManagement.Application.Contract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Domain.dll": {}
+        }
+      },
+      "CommentManagement.Infrastructure.EFCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CommentManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Infrastructure.EFCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Infrastructure.EFCore.dll": {}
         }
       },
       "DiscountManagement.Application/1.0.0": {
@@ -9842,6 +9991,56 @@
       "path": "../01_TajhizMiningQuery/01_TajhizMiningQuery.csproj",
       "msbuildProject": "../01_TajhizMiningQuery/01_TajhizMiningQuery.csproj"
     },
+    "ArticleManagement.Application/1.0.0": {
+      "type": "project",
+      "path": "../ArticleManagement.Application/ArticleManagement.Application.csproj",
+      "msbuildProject": "../ArticleManagement.Application/ArticleManagement.Application.csproj"
+    },
+    "ArticleManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "path": "../ArticleManagement.Application.Contract/ArticleManagement.Application.Contract.csproj",
+      "msbuildProject": "../ArticleManagement.Application.Contract/ArticleManagement.Application.Contract.csproj"
+    },
+    "ArticleManagement.Configuration/1.0.0": {
+      "type": "project",
+      "path": "../ArticleCategoryManagement.Configuration/ArticleManagement.Configuration.csproj",
+      "msbuildProject": "../ArticleCategoryManagement.Configuration/ArticleManagement.Configuration.csproj"
+    },
+    "ArticleManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ArticleManagement.Domain/ArticleManagement.Domain.csproj",
+      "msbuildProject": "../ArticleManagement.Domain/ArticleManagement.Domain.csproj"
+    },
+    "ArticleManagement.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "path": "../ArticleCategoryManagement.Infrastructure.EFCore/ArticleManagement.Infrastructure.EFCore.csproj",
+      "msbuildProject": "../ArticleCategoryManagement.Infrastructure.EFCore/ArticleManagement.Infrastructure.EFCore.csproj"
+    },
+    "CommentManagement.Application/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Application/CommentManagement.Application.csproj",
+      "msbuildProject": "../CommentManagement.Application/CommentManagement.Application.csproj"
+    },
+    "CommentManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Application.Contract/CommentManagement.Application.Contract.csproj",
+      "msbuildProject": "../CommentManagement.Application.Contract/CommentManagement.Application.Contract.csproj"
+    },
+    "CommentManagement.Configuration/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Configuration/CommentManagement.Configuration.csproj",
+      "msbuildProject": "../CommentManagement.Configuration/CommentManagement.Configuration.csproj"
+    },
+    "CommentManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Domain/CommentManagement.Domain.csproj",
+      "msbuildProject": "../CommentManagement.Domain/CommentManagement.Domain.csproj"
+    },
+    "CommentManagement.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Infrastructure.EFCore/CommentManagement.Infrastructure.EFCore.csproj",
+      "msbuildProject": "../CommentManagement.Infrastructure.EFCore/CommentManagement.Infrastructure.EFCore.csproj"
+    },
     "DiscountManagement.Application/1.0.0": {
       "type": "project",
       "path": "../DiscountManagement.Application/DiscountManagement.Application.csproj",
@@ -9921,6 +10120,8 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "01_TajhizMiningQuery >= 1.0.0",
+      "ArticleManagement.Configuration >= 1.0.0",
+      "CommentManagement.Configuration >= 1.0.0",
       "DiscountManagement.Configuration >= 1.0.0",
       "InventoryManagement.Configuration >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.3",
@@ -9962,6 +10163,12 @@
           "projectReferences": {
             "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\01_TajhizMiningQuery\\01_TajhizMiningQuery.csproj": {
               "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\01_TajhizMiningQuery\\01_TajhizMiningQuery.csproj"
+            },
+            "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleCategoryManagement.Configuration\\ArticleManagement.Configuration.csproj": {
+              "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleCategoryManagement.Configuration\\ArticleManagement.Configuration.csproj"
+            },
+            "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Configuration\\CommentManagement.Configuration.csproj": {
+              "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CommentManagement.Configuration\\CommentManagement.Configuration.csproj"
             },
             "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CustomerDiscount.Infrastructure.Configuration\\DiscountManagement.Configuration.csproj": {
               "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\CustomerDiscount.Infrastructure.Configuration\\DiscountManagement.Configuration.csproj"

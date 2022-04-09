@@ -1,0 +1,37 @@
+﻿@model List<_01_TajhizMiningQuery.Contracts.Article.ArticleQueryModel>
+
+
+    <section class="blog_section mb-70">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="section_title">
+						<h2>بلاگ</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="blog_carousel blog_column4 owl-carousel">
+				@if (Model != null)
+				{
+					@foreach (var Article in Model)
+					{
+						<div class="col-lg-3">
+							<article class="single_blog">
+								<figure>
+									<div class="blog_thumb">
+										<a asp-page="/blog/blogdetails" asp-route-id="@Article.Slug"><img src="~/UploadedFiles/@Article.Picture" alt="@Article.PictureAlt" title="@Article.PictureTitle"></a>
+									</div>
+									<figcaption class="blog_content">
+										<p class="post_author">توسط <a href="#">مدیر</a> @Article.PublishDate</p>
+										<h3 class="post_title"><a asp-page="/blog/blogdetails" asp-route-id="@Article.Slug" >@Article.Title</a></h3>
+									</figcaption>
+								</figure>
+							</article>
+						</div>
+					}
+				}
+				</div>
+			</div>
+		</div>
+	</section>

@@ -3,6 +3,7 @@ using _01_TajhizMiningQuery.Contracts.Product;
 using _01_TajhizMiningQuery.Contracts.ProductCategory;
 using _01_TajhizMiningQuery.Contracts.Slide;
 using _01_TajhizMiningQuery.Query;
+using _01_TajhizMiningQuery.Queryt;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using ShopManagement.Application;

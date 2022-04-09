@@ -10,6 +10,9 @@ namespace _01_TajhizMiningQuery.Contracts.ProductCategory
         //To Use Product Categories In Shop Page
         List<ProductCategoryForShopQueryModel> GetAllCategoriesForShop();
 
+         ProductCategoryForShopQueryModel GetCategoryByCategorySlug(string categorySlug);
+
+
 
 
     }

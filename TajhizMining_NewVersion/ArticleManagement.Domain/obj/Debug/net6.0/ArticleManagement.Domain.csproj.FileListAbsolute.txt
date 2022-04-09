@@ -1,0 +1,17 @@
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ArticleManagement.Domain\bin\Debug\net6.0\ArticleManagement.Domain.deps.json
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ArticleManagement.Domain\bin\Debug\net6.0\ArticleManagement.Domain.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ArticleManagement.Domain\bin\Debug\net6.0\ref\ArticleManagement.Domain.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ArticleManagement.Domain\bin\Debug\net6.0\ArticleManagement.Domain.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ArticleManagement.Domain\bin\Debug\net6.0\01_Framework.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ArticleManagement.Domain\bin\Debug\net6.0\ArticleManagement.Application.Contract.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ArticleManagement.Domain\bin\Debug\net6.0\01_Framework.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ArticleManagement.Domain\bin\Debug\net6.0\ArticleManagement.Application.Contract.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ArticleManagement.Domain\obj\Debug\net6.0\ArticleManagement.Domain.csproj.AssemblyReference.cache
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ArticleManagement.Domain\obj\Debug\net6.0\ArticleManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ArticleManagement.Domain\obj\Debug\net6.0\ArticleManagement.Domain.AssemblyInfoInputs.cache
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ArticleManagement.Domain\obj\Debug\net6.0\ArticleManagement.Domain.AssemblyInfo.cs
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ArticleManagement.Domain\obj\Debug\net6.0\ArticleManagement.Domain.csproj.CoreCompileInputs.cache
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ArticleManagement.Domain\obj\Debug\net6.0\ArticleManagement.Domain.csproj.CopyComplete
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ArticleManagement.Domain\obj\Debug\net6.0\ArticleManagement.Domain.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ArticleManagement.Domain\obj\Debug\net6.0\ref\ArticleManagement.Domain.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\ArticleManagement.Domain\obj\Debug\net6.0\ArticleManagement.Domain.pdb

@@ -1,0 +1,220 @@
+﻿@page "{id?}"
+@model ServiceHost.Pages.Blog.IndexModel
+@{
+    if (Model.category != null)
+    {
+        ViewData["Title"] = Model.category.Name;
+        ViewData["Keywords"] = Model.category.KeyWords;
+        ViewData["metadescription"] = Model.category.MetaDescription;
+    }
+    else
+    {
+        ViewData["Title"] = "بلاگ";
+    }
+
+}
+
+<!--breadcrumbs area start-->
+<div class="breadcrumbs_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadcrumb_content">
+                    <ul>
+                        <li><a href="/">خانه</a></li>
+                        <li>بلاگ</li>
+                        @if (ViewData["category"] != null)
+                        {
+                            <li>@ViewData["category"]</li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--breadcrumbs area end-->
+<!--blog area start-->
+<div class="blog_page_section blog_reverse mt-60">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="blog_sidebar_widget">
+                    <div class="widget_list widget_search">
+                        <h3>جستجو</h3>
+                        <form asp-page="/blog/index" method="get">
+                            <input name="searchValue" placeholder="جستجو ..." type="text">
+                            <button type="submit">جستجو</button>
+                        </form>
+                    </div>
+                    <div class="widget_list comments">
+                        <h3>دیدگاه‌های جدید</h3>
+                        <div class="post_wrapper">
+                            <div class="post_thumb">
+                                <a href="blog-details.html"><img src="/theme/assets/img/blog/comment2.png.jpg" alt=""></a>
+                            </div>
+                            <div class="post_info">
+                                <span> <a href="#">دمو</a> می‌گوید:</span>
+                                <a href="blog-details.html">لورم ایپسوم متن ساختگی</a>
+                            </div>
+                        </div>
+                        <div class="post_wrapper">
+                            <div class="post_thumb">
+                                <a href="blog-details.html"><img src="/theme/assets/img/blog/comment2.png.jpg" alt=""></a>
+                            </div>
+                            <div class="post_info">
+                                <span><a href="#">مدیر</a> می‌گوید:</span>
+                                <a href="blog-details.html">لورم ایپسوم متن ساختگی</a>
+                            </div>
+                        </div>
+                        <div class="post_wrapper">
+                            <div class="post_thumb">
+                                <a href="blog-details.html"><img src="/theme/assets/img/blog/comment2.png.jpg" alt=""></a>
+                            </div>
+                            <div class="post_info">
+                                <span><a href="#">دمو</a> می‌گوید:</span>
+                                <a href="blog-details.html">لورم ایپسوم متن ساختگی</a>
+                            </div>
+                        </div>
+                        <div class="post_wrapper">
+                            <div class="post_thumb">
+                                <a href="blog-details.html"><img src="/theme/assets/img/blog/comment2.png.jpg" alt=""></a>
+                            </div>
+                            <div class="post_info">
+                                <span><a href="#">مدیر</a> می‌گوید:</span>
+                                <a href="blog-details.html">لورم ایپسوم متن ساختگی</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget_list widget_post">
+                        <h3>مطالب اخیر</h3>
+                        @if (Model.LatestArticles.Count == 0)
+                        {
+
+                        }
+                        else
+                        {
+                            @foreach (var item in Model.LatestArticles)
+                            {
+                                <div class="post_wrapper">
+                                    <div class="post_thumb">
+                                        <a asp-page="/blog/blogdetails" asp-route-id="@item.Slug"><img src="/UploadedFiles/@item.Picture" alt="@item.PictureAlt" title="@item.PictureTitle"></a>
+                                    </div>
+                                    <div class="post_info">
+                                        <h3><a asp-page="/blog/blogdetails" asp-route-id="@item.Slug">@item.Title</a></h3>
+                                        <span>@item.PublishDate </span>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                    <div class="widget_list widget_categories">
+                        <h3>بایگانی</h3>
+                        <ul>
+                            <li><a href="#">آذر 1398</a></li>
+                        </ul>
+                    </div>
+                    <div class="widget_list widget_categories">
+                        <h3>دسته ها</h3>
+                        <ul>
+                            @foreach (var item in Model.Categories)
+                            {
+                                <li><a asp-page="/blog/index" asp-route-id="@item.Name">@item.Name</a></li>
+                            }
+                        </ul>
+                    </div>
+                    <div class="widget_list widget_tag">
+                        <h3>برچسب های محصولات</h3>
+                        <div class="tag_widget">
+                            <ul>
+                                @foreach (var tag in Model.Tags)
+                                {
+                                    <li><a href="/blog/index?keyword=@tag">@tag</a></li>
+
+                                }
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="blog_wrapper blog_wrapper_sidebar">
+                    <div class="blog_header">
+                        <h1>بلاگ</h1>
+                    </div>
+                    @if (ViewData["searchValue"] != null)
+                    {
+                        <div style="direction:rtl">
+
+                            <p style="direction:rtl">نتایچ جستجو مقالات برای : <strong class="text-info">@ViewData["searchValue"]</strong></p>
+                        </div>
+
+                    }
+                    @if (ViewData["category"] != null)
+                    {
+                        <div style="direction:rtl;">
+                            <p style="direction:rtl">بایگانی: <strong class="text-info">@ViewData["category"]</strong></p>
+                        </div>
+                    }
+                    <br />
+                    <div class="row">
+                        @if (Model.Articles.Count == 0)
+                        {
+                            <br />
+                            <strong class="text-warning"> موردی یافت نشد</strong>
+                        }
+                        else
+                        {
+                            @foreach (var item in Model.Articles)
+                            {
+                                <div class="col-lg-6 col-md-6">
+                                    <article class="single_blog mb-60">
+                                        <figure>
+                                            <div class="blog_thumb">
+                                                <a asp-page="/blog/blogdetails" asp-route-id="@item.Slug"><img src="/UploadedFiles/@item.Picture" alt="@item.PictureAlt" title="@item.PictureTitle"></a>
+                                            </div>
+                                            <figcaption class="blog_content">
+                                                <h3><a asp-page="/blog/blogdetails" asp-route-id="@item.Slug">@item.Title</a></h3>
+                                                <div class="blog_meta">
+                                                    <span class="author">ارسال توسط : <a>مدیر</a> / </span>
+                                                    <span class="post_date">در : <a>@item.PublishDate</a></span>
+                                                </div>
+                                                <div class="blog_desc">
+                                                    <p>@item.ShortDescription.Substring(0,Math.Min(item.ShortDescription.Length,70)) ...</p>
+                                                </div>
+                                                <footer class="readmore_button">
+                                                    <a asp-page="/blog/blogdetails" asp-route-id="@item.Slug">بیشتر بخوانید</a>
+                                                </footer>
+                                            </figcaption>
+                                        </figure>
+                                    </article>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--blog area end-->
+<!--blog pagination area start-->
+<div class="blog_pagination">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="pagination">
+                    <ul>
+                        <li class="current"><span>1</span></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li class="next"><a href="#">بعدی</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-left"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--blog pagination area end-->

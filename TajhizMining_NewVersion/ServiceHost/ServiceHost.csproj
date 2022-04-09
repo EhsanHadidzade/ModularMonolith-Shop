@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\01_TajhizMiningQuery\01_TajhizMiningQuery.csproj" />
+    <ProjectReference Include="..\ArticleCategoryManagement.Configuration\ArticleManagement.Configuration.csproj" />
+    <ProjectReference Include="..\CommentManagement.Configuration\CommentManagement.Configuration.csproj" />
     <ProjectReference Include="..\CustomerDiscount.Infrastructure.Configuration\DiscountManagement.Configuration.csproj" />
     <ProjectReference Include="..\InventoryManagement.Infrastructure.Configuration\InventoryManagement.Configuration.csproj" />
     <ProjectReference Include="..\ShopManagement.Configuration\ShopManagement.Configuration.csproj" />

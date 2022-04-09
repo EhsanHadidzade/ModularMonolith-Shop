@@ -17,10 +17,13 @@ var connectionstring = builder.Configuration.GetConnectionString("TA_NewVersion_
 ShopManagement.Configuration.ShopManagementBootstrapper.Configure(builder.Services, connectionstring);
 DiscountManagement.Configuration.DiscountManagementBootstrapper.Configure(builder.Services,connectionstring);
 InventoryManagement.Configuration.InventoryManagementBootstrapper.Configure(builder.Services, connectionstring);
+CommentManagement.Configuration.CommentManagementBootstrapper.Configure(builder.Services, connectionstring);
+ArticleManagement.Configuration.ArticleManagementBootstrapper.Configure(builder.Services, connectionstring);
 
 //FileUploader System Configuration
 builder.Services.AddTransient<IFileUploader, FileUploader>();
 
+//To add new encoder To show viewdata html in application
 
 
 

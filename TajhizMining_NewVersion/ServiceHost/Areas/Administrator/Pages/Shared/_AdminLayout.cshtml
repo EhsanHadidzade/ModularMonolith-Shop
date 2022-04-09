@@ -130,12 +130,24 @@
                             </ul>
                         </li>
                         <li class="has_sub">
+                            <a class="waves-effect"><i class="md md-mail"></i><span> مدیریت بلاگ  </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                            <ul class="list-unstyled">
+                                <li><a asp-page="/Blog/ArticleCategory/index"> گروه بندی مقالات</a></li>
+                                <li><a asp-page="/Blog/Article/index">مقالات</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has_sub">
                             <a class="waves-effect"><i class="md md-mail"></i><span> تخفیف ها </span><span class="pull-right"><i class="md md-add"></i></span></a>
                             <ul class="list-unstyled">
                                 <li><a asp-page="/discount/customerdiscount/index"> تخفیف مشتری ها</a></li>
                                 <li><a asp-page="/discount/colleaguediscount/index">تفیف برای همکاران</a></li>
                             </ul>
                         </li>
+                         <li>
+                            <a asp-page="/comment/index" class="waves-effect active"><i class="md md-home"></i><span> کامنت ها </span></a>
+                        </li>
+
                     </ul>
                     <div class="clearfix"></div>
                 </div>
@@ -359,22 +371,25 @@
         });
     </script>
 
+     <script src="https://cdn.tiny.cloud/1/1i4uy9alhza5a3x4akfh9jypvxpbzerq7fvohp5kfbn8pbix/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+     <script>
+    tinymce.init({
+      selector: '#BodyContent',
+      plugins: 'a11ychecker advcode casechange export formatpainter linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tinycomments tinymcespellchecker',
+      toolbar: 'a11ycheck addcomment showcomments casechange checklist code export formatpainter pageembed permanentpen table ltr rtl',
+      toolbar_mode: 'floating',
+      tinycomments_mode: 'embedded',
+      tinycomments_author: 'Author name',
+      directionality : 'rtl'
+      
+      
+    });
+    tinymce.activeEditor.execCommand('mceDirectionRTL');
+  </script>
 
 
 
 
-
-    <!-- <script type="text/javascript"> -->
-    <!-- /* ============================================== -->
-    <!-- Counter Up -->
-    <!-- =============================================== */ -->
-    <!-- jQuery(document).ready(function($) { -->
-    <!-- $('.counter').counterUp({ -->
-    <!-- delay: 100, -->
-    <!-- time: 1200 -->
-    <!-- }); -->
-    <!-- }); -->
-    <!-- </script> -->
-
+   
 </body>
 </html>

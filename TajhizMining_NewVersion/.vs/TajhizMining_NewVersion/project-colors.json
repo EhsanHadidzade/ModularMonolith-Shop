@@ -100,7 +100,57 @@
       "ProjectGuid": "b336a775-47cb-4d4d-8e3c-627eacbc4fdb",
       "DisplayName": "InventoryManagement.Application",
       "ColorIndex": 2
+    },
+    "35d67be5-d050-426f-9304-a2145dd9c825": {
+      "ProjectGuid": "35d67be5-d050-426f-9304-a2145dd9c825",
+      "DisplayName": "CommentManagement.Domain",
+      "ColorIndex": 3
+    },
+    "eb073227-05f7-4d25-97fc-18c474436422": {
+      "ProjectGuid": "eb073227-05f7-4d25-97fc-18c474436422",
+      "DisplayName": "CommentManagement.Application.Contract",
+      "ColorIndex": 4
+    },
+    "cb93aa5f-9a65-4da8-9294-3109e5fbd1ea": {
+      "ProjectGuid": "cb93aa5f-9a65-4da8-9294-3109e5fbd1ea",
+      "DisplayName": "CommentManagement.Application",
+      "ColorIndex": 5
+    },
+    "d31e8114-debb-4113-9bbe-0f9772bcc0d6": {
+      "ProjectGuid": "d31e8114-debb-4113-9bbe-0f9772bcc0d6",
+      "DisplayName": "CommentManagement.Infrastructure.EFCore",
+      "ColorIndex": 6
+    },
+    "4126bd8f-e2a6-4d80-99f8-b42c81d3da3d": {
+      "ProjectGuid": "4126bd8f-e2a6-4d80-99f8-b42c81d3da3d",
+      "DisplayName": "CommentManagement.Configuration",
+      "ColorIndex": 7
+    },
+    "b4041534-4a69-4d99-9cf6-f2bf7560f6d1": {
+      "ProjectGuid": "b4041534-4a69-4d99-9cf6-f2bf7560f6d1",
+      "DisplayName": "ArticleManagement.Infrastructure.EFCore",
+      "ColorIndex": 8
+    },
+    "07e65a15-b7b6-48d3-b965-0dda4b7db2a1": {
+      "ProjectGuid": "07e65a15-b7b6-48d3-b965-0dda4b7db2a1",
+      "DisplayName": "ArticleManagement.Configuration",
+      "ColorIndex": 9
+    },
+    "6099ae47-d296-4dda-a1d2-afe201965d20": {
+      "ProjectGuid": "6099ae47-d296-4dda-a1d2-afe201965d20",
+      "DisplayName": "ArticleManagement.Domain",
+      "ColorIndex": 10
+    },
+    "56b4aaeb-4167-45e1-9215-aa6f3295b53f": {
+      "ProjectGuid": "56b4aaeb-4167-45e1-9215-aa6f3295b53f",
+      "DisplayName": "ArticleManagement.Application.Contract",
+      "ColorIndex": 11
+    },
+    "04125576-5ab0-475c-91e6-fa1e75dfab26": {
+      "ProjectGuid": "04125576-5ab0-475c-91e6-fa1e75dfab26",
+      "DisplayName": "ArticleManagement.Application",
+      "ColorIndex": 12
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 13
 }

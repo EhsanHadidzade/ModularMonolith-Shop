@@ -4,8 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>قالب Junko</title>
-    <meta name="description" content="">
+    @if (ViewData["Title"] != null)
+    {
+        <title>@ViewData["Title"] |  فروشگاه لوازم جانبی ماینر TajhizMining </title>
+
+    }
+    else
+    {
+        <title>فروشگاه لوازم جانبی ماینر TajhizMining</title>
+    }
+    <meta name="keywords" content="@ViewData["Keywords"]" />
+    <meta name="description" content="@ViewData["metadescription"]">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="~/theme/assets/img/favicon.ico">
@@ -24,142 +33,138 @@
 <body>
 
 
-  	<!--Offcanvas menu area start-->
-	<div class="off_canvars_overlay">
+    <!--Offcanvas menu area start-->
+    <div class="off_canvars_overlay">
+    </div>
+    <div class="Offcanvas_menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="canvas_open">
+                        <a href="javascript:void(0)"><i class="ion-navicon"></i></a>
+                    </div>
+                    <div class="Offcanvas_menu_wrapper">
+                        <div class="canvas_close">
+                            <a href="javascript:void(0)"><i class="ion-android-close"></i></a>
+                        </div>
+                        <div class="support_info">
+                            <p>تلفن تماس: <a class="ltr-text" href="tel:+989123456789">+(98) 123 456 789</a></p>
+                        </div>
+                        <div class="top_right text-right">
+                            <ul>
+                                <li><a href="my-account.html"> حساب کاربری </a></li>
+                                <li><a href="checkout.html"> پرداخت </a></li>
+                            </ul>
+                        </div>
+                        <div class="search_container">
+                            <form asp-page="/product/index" method="get">
+                                <div class="hover_category">
+                                </div>
+                                <div class="search_box">
+                                    <input name="searchValue" placeholder="جستجوی محصول ..." type="text">
+                                    <button type="submit">جستجو</button>
+                                </div>
+                            </form>
+                        </div>
 
-	</div>
-	<div class="Offcanvas_menu">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<div class="canvas_open">
-						<a href="javascript:void(0)"><i class="ion-navicon"></i></a>
-					</div>
-					<div class="Offcanvas_menu_wrapper">
-						<div class="canvas_close">
-							<a href="javascript:void(0)"><i class="ion-android-close"></i></a>
-						</div>
-						<div class="support_info">
-							<p>تلفن تماس: <a class="ltr-text" href="tel:+989123456789">+(98) 123 456 789</a></p>
-						</div>
-						<div class="top_right text-right">
-							<ul>
-								<li><a href="my-account.html"> حساب کاربری </a></li>
-								<li><a href="checkout.html"> پرداخت </a></li>
-							</ul>
-						</div>
-						<div class="search_container">
-							<form asp-page="/product/index" method="get">
-								<div class="hover_category">
-								</div>
-								<div class="search_box">
-									<input name="searchValue" placeholder="جستجوی محصول ..." type="text">
-									<button type="submit">جستجو</button>
-								</div>
-							</form>
-						</div>
+                        <div class="middel_right_info">
+                            <div class="header_wishlist">
+                                <a href="wishlist.html"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                                <span class="wishlist_quantity">3</span>
+                            </div>
+                            <div class="mini_cart_wrapper">
+                                <a href="javascript:void(0)"><i class="fa fa-shopping-bag" aria-hidden="true"></i> <i class="fa fa-angle-down"></i></a>
+                                <span class="cart_quantity">2</span>
+                                <!--mini cart-->
+                                <div class="mini_cart">
+                                    <div class="cart_items_container">
+                                        <div class="cart_item">
+                                            <div class="cart_img">
+                                                <a href="#"><img src="assets/img/s-product/product.jpg" alt=""></a>
+                                            </div>
+                                            <div class="cart_info">
+                                                <a href="#">گوشی هوشمند سامسونگ A50</a>
+                                                <p>تعداد: 1 × <span> 60,000 تومان </span></p>
+                                            </div>
+                                            <div class="cart_remove">
+                                                <a href="#"><i class="ion-android-close"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="cart_item">
+                                            <div class="cart_img">
+                                                <a href="#"><img src="assets/img/s-product/product2.jpg" alt=""></a>
+                                            </div>
+                                            <div class="cart_info">
+                                                <a href="#">لورم ایپسوم متن ساختگی با تولید سادگی</a>
+                                                <p>تعداد: 1 × <span> 60,000 تومان </span></p>
+                                            </div>
+                                            <div class="cart_remove">
+                                                <a href="#"><i class="ion-android-close"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mini_cart_table">
+                                        <div class="cart_total">
+                                            <span>جمع اجزا:</span>
+                                            <span class="price">138,000 تومان </span>
+                                        </div>
+                                        <div class="cart_total mt-10">
+                                            <span>جمع کل:</span>
+                                            <span class="price">138,000 تومان </span>
+                                        </div>
+                                    </div>
 
-						<div class="middel_right_info">
-							<div class="header_wishlist">
-								<a href="wishlist.html"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-								<span class="wishlist_quantity">3</span>
-							</div>
-							<div class="mini_cart_wrapper">
-								<a href="javascript:void(0)"><i class="fa fa-shopping-bag" aria-hidden="true"></i> <i class="fa fa-angle-down"></i></a>
-								<span class="cart_quantity">2</span>
-								<!--mini cart-->
-								<div class="mini_cart">
-									<div class="cart_items_container">
-										<div class="cart_item">
-											<div class="cart_img">
-												<a href="#"><img src="assets/img/s-product/product.jpg" alt=""></a>
-											</div>
-											<div class="cart_info">
-												<a href="#">گوشی هوشمند سامسونگ A50</a>
-												<p>تعداد: 1 × <span> 60,000 تومان </span></p>
-											</div>
-											<div class="cart_remove">
-												<a href="#"><i class="ion-android-close"></i></a>
-											</div>
-										</div>
-										<div class="cart_item">
-											<div class="cart_img">
-												<a href="#"><img src="assets/img/s-product/product2.jpg" alt=""></a>
-											</div>
-											<div class="cart_info">
-												<a href="#">لورم ایپسوم متن ساختگی با تولید سادگی</a>
-												<p>تعداد: 1 × <span> 60,000 تومان </span></p>
-											</div>
-											<div class="cart_remove">
-												<a href="#"><i class="ion-android-close"></i></a>
-											</div>
-										</div>
-									</div>
-									<div class="mini_cart_table">
-										<div class="cart_total">
-											<span>جمع اجزا:</span>
-											<span class="price">138,000 تومان </span>
-										</div>
-										<div class="cart_total mt-10">
-											<span>جمع کل:</span>
-											<span class="price">138,000 تومان </span>
-										</div>
-									</div>
+                                    <div class="mini_cart_footer">
+                                        <div class="cart_button">
+                                            <a href="cart.html">مشاهده سبد</a>
+                                        </div>
+                                        <div class="cart_button">
+                                            <a href="checkout.html">پرداخت</a>
+                                        </div>
 
-									<div class="mini_cart_footer">
-										<div class="cart_button">
-											<a href="cart.html">مشاهده سبد</a>
-										</div>
-										<div class="cart_button">
-											<a href="checkout.html">پرداخت</a>
-										</div>
+                                    </div>
 
-									</div>
+                                </div>
+                                <!--mini cart end-->
+                            </div>
+                        </div>
+                        <div id="menu" class="text-left ">
+                            <ul class="offcanvas_main_menu">
+                                <li class="menu-item-has-children active">
+                                    <a href="./index">خانه</a>
 
-								</div>
-								<!--mini cart end-->
-							</div>
-						</div>
-						<div id="menu" class="text-left ">
-							<ul class="offcanvas_main_menu">
-								<li class="menu-item-has-children active">
-									<a href="./index">خانه</a>
-									
-								</li>
-								<li class="menu-item-has-children">
-									<a href="/product/index">فروشگاه</a>
-								</li>
-								<li class="menu-item-has-children">
-									<a href="#">بلاگ</a>
-								</li>
-								
-								<li class="menu-item-has-children">
-									<a href="my-account.html">حساب کاربری</a>
-								</li>
-								<li class="menu-item-has-children">
-									<a href="about.html">درباره ما</a>
-								</li>
-								<li class="menu-item-has-children">
-									<a href="contact.html"> تماس با ما</a>
-								</li>
-							</ul>
-						</div>
-						<div class="Offcanvas_footer">
-							<span><a href="#"><i class="fa fa-envelope-o"></i> info@yourdomain.com</a></span>
-							<ul>
-								<li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li class="pinterest"><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-								<li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								<li class="telegram"><a href="#"><i class="fa fa-telegram"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--Offcanvas menu area end-->
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="/product/index">فروشگاه</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a asp-page="/blog/index">بلاگ</a>
+                                </li>
+
+                                <li class="menu-item-has-children">
+                                    <a href="my-account.html">حساب کاربری</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="contact.html"> تماس با ما</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="Offcanvas_footer">
+                            <span><a href="#"><i class="fa fa-envelope-o"></i> info@yourdomain.com</a></span>
+                            <ul>
+                                <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li class="pinterest"><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                                <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li class="telegram"><a href="#"><i class="fa fa-telegram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Offcanvas menu area end-->
     <!--header area start-->
     <header>
         <div class="main_header">
@@ -289,19 +294,7 @@
                         <div class="col-lg-9 col-md-12">
                             <div class="main_menu menu_position">
                                 <nav>
-                                    <ul>
-                                        <li>
-                                            <a href="./index">خانه</a>
-                                        </li>
-                                        <li class="mega_items">                                            
-                                            <a href="/product/index">فروشگاه</a>
-                                        </li>
-                                        <li>                                            
-                                            <a href="blog.html">بلاگ<i class="fa fa-angle-down"></i></a>
-                                        </li>
-                                        <li><a href="about.html">درباره ما</a></li>
-                                        <li><a href="contact.html"> تماس با ما</a></li>
-                                    </ul>
+                                    @await Component.InvokeAsync("HeaderMenu")
                                 </nav>
                             </div>
                         </div>
@@ -325,107 +318,8 @@
                     <div class="sticky_header_right menu_position">
                         <div class="main_menu">
                             <nav>
-                                <ul>
-                                    <li>
-                                        
-                                        
-                                        <a class="active" href="index.html">خانه<i class="fa fa-angle-down"></i></a>
-                                        <ul class="sub_menu">
-                                            <li><a href="index.html">خانه فروشگاه 1</a></li>
-                                            <li><a href="index-2.html">خانه فروشگاه 2</a></li>
-                                            <li><a href="index-3.html">خانه فروشگاه 3</a></li>
-                                            <li><a href="index-4.html">خانه فروشگاه 4</a></li>
-                                            <li><a href="index-5.html">خانه فروشگاه 5</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="mega_items">
-                                        
-                                        
-                                        <a href="shop.html">فروشگاه<i class="fa fa-angle-down"></i></a>
-                                        <div class="mega_menu">
-                                            <ul class="mega_menu_inner">
-                                                <li>
-                                                    
-                                                    
-                                                    <a href="#">طرح های فروشگاه</a>
-                                                    <ul>
-                                                        <li><a href="shop-fullwidth.html">تمام عرض</a></li>
-                                                        <li><a href="shop-fullwidth-list.html">تمام عرض لیست</a></li>
-                                                        <li><a href="shop-left-sidebar.html">نوار کناری چپ </a></li>
-                                                        <li><a href="shop-left-sidebar-list.html"> نوار کناری چپ لیست</a></li>
-                                                        <li><a href="shop-list.html">نمایش لیست</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    
-                                                    
-                                                    <a href="#">سایر صفحات</a>
-                                                    <ul>
-                                                        <li><a href="cart.html">سبد خرید</a></li>
-                                                        <li><a href="wishlist.html">لیست علاقه‌مندی‌ها</a></li>
-                                                        <li><a href="checkout.html">پرداخت</a></li>
-                                                        <li><a href="my-account.html">حساب کاربری</a></li>
-                                                        <li><a href="404.html">خطای 404</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    
-                                                    
-                                                    <a href="#">انواع محصول</a>
-                                                    <ul>
-                                                        <li><a href="product-details.html">جزئیات محصول</a></li>
-                                                        <li><a href="product-sidebar.html">محصول با نوار کناری</a></li>
-                                                        <li><a href="product-grouped.html">محصول گروهبندی شده</a></li>
-                                                        <li><a href="variable-product.html">محصول متغیر</a></li>
-                                                        <li><a href="product-countdown.html">محصول شمارنده</a></li>
+                                @await Component.InvokeAsync("HeaderMenu")
 
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    
-                                                    
-                                                    <a href="#">ابزارهای کامپیوتر</a>
-                                                    <ul>
-                                                        <li><a href="shop.html">کابل و اتصال دهنده ها</a></li>
-                                                        <li><a href="shop-list.html">تبلت های گرافیکی</a></li>
-                                                        <li><a href="shop-fullwidth.html">پرینتر ها، جوهر و تونر</a></li>
-                                                        <li><a href="shop-fullwidth-list.html">تبلت های دست دوم</a></li>
-                                                        <li><a href="shop-left-sidebar.html">درایو های نوری</a></li>
-
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        
-                                        
-                                        <a href="blog.html">بلاگ<i class="fa fa-angle-down"></i></a>
-                                        <ul class="sub_menu pages">
-                                            <li><a href="blog-details.html">جزئیات مطلب بلاگ</a></li>
-                                            <li><a href="blog-fullwidth.html">بلاگ تمام عرض</a></li>
-                                            <li><a href="blog-sidebar.html">بلاگ نوار کناری راست</a></li>
-                                            <li><a href="blog-no-sidebar.html">بلاگ بدون نوار کناری</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        
-                                        
-                                        <a href="#">صفحات <i class="fa fa-angle-down"></i></a>
-                                        <ul class="sub_menu pages">
-                                            <li><a href="about.html">درباره ما</a></li>
-                                            <li><a href="services.html">خدمات</a></li>
-                                            <li><a href="privacy-policy.html">سیاست حریم خصوصی</a></li>
-                                            <li><a href="faq.html">سوالات متداول</a></li>
-                                            <li><a href="contact.html">تماس</a></li>
-                                            <li><a href="login.html">ورود</a></li>
-                                            <li><a href="404.html">خطای 404</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li><a href="about.html">درباره ما</a></li>
-                                    <li><a href="contact.html"> تماس با ما</a></li>
-                                </ul>
                             </nav>
                         </div>
                         <div class="middel_right_info">

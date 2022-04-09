@@ -28,57 +28,39 @@ namespace _01_TajhizMiningQuery.Query
 
         public List<ProductCategoryForShopQueryModel> GetAllCategoriesForShop()
         {
-            return _context.ProductCategories.Select(x => new ProductCategoryForShopQueryModel
+            var categories = _context.ProductCategories.OrderByDescending(x => x.Id).Select(x => new ProductCategoryForShopQueryModel
             {
                 Id = x.Id,
                 Name = x.Name,
-                Keywords = x.Keyword,
-                Slug = x.Slug
+                Slug = x.Slug,
+                Keywords=x.Keyword
             }).ToList();
+
+            categories.ForEach(x => x.KeywordsList = x.Keywords.Split("-").Take(3).ToList());
+
+            return categories;
+
         }
 
-        //public List<ProductCategoryForShopQueryModel> GetCategoriesWithProducts()
-        //{
-        //    var discounts = _discountContext.CustomerDiscounts.Select(x => new { x.ProductId, x.DiscountRate, x.EndDate }).ToList();
-        //    var inventories = _inventorycontext.Inventories.Select(x => new { x.ProductId, x.UnitPrice }).ToList();
-        //    var products = _context.Products.Select(p => new ProductQueryModel
-        //    {
-        //        Id = p.Id,
-        //        Name = p.Name,
-        //        Category = p.ProductCategory.Name,
-        //        Description = p.Description.Substring(2,180)+"....",
-        //        Picture = p.Picture,
-        //        PictureAlt = p.PictureAlt,
-        //        PictureTitle = p.PictureTitle,
-        //        Slug = p.Slug,
-        //        CategoryId=p.CateforyId
-        //    }).ToList();
-        //    foreach (var product in products)
-        //    {
-        //        var productinventory = _inventorycontext.Inventories.FirstOrDefault(x => x.ProductId == product.Id);
-        //        if (productinventory != null)
-        //        {
-        //            product.Price = productinventory.UnitPrice.ToMoney();
-        //            var productdiscount = _discountContext.CustomerDiscounts.FirstOrDefault(x => x.ProductId == product.Id);
-        //            if (productdiscount != null)
-        //            {
-        //                product.HasDiscount = true;
-        //                product.DiscountRate = productdiscount.DiscountRate;
-        //                var discountamount = (productinventory.UnitPrice * productdiscount.DiscountRate) / 100;
-        //                product.PriceWithDiscount = (productinventory.UnitPrice - discountamount).ToMoney();
-        //            }
-        //        }
-        //    }
-        //    return _context.ProductCategories.Include(x => x.Products).Select(x => new ProductCategoryForShopQueryModel
-        //    {
-        //        Id = x.Id,
-        //        Name = x.Name,
-        //        Keywords = x.Keyword,
-        //        Slug = x.Slug,
-        //        Products = products
-        //    }).ToList();
+        public ProductCategoryForShopQueryModel GetCategoryByCategorySlug(string categorySlug)
+        {
+            var category = _context.ProductCategories.Select(x => new ProductCategoryForShopQueryModel
+            {
+                Id = x.Id,
+                Slug = x.Slug,
+                Name = x.Name,
+                Keywords = x.Keyword,
+                MetaDescription = x.MetaDescription,
+            }).FirstOrDefault(x => x.Slug == categorySlug);
 
-        //}
+            if (category == null)
+                throw new Exception();
+
+            category.KeywordsList = category.Keywords.Split("-").ToList();
+
+            return category;
+        }
+
         public List<ProductCategoryForBodyQueryModel> GetProductCategoriesForBody()
         {
             return _context.ProductCategories.Select(x => new ProductCategoryForBodyQueryModel
@@ -101,6 +83,6 @@ namespace _01_TajhizMiningQuery.Query
             }).OrderByDescending(x => x.Id).ToList();
         }
 
-
+        
     }
 }
