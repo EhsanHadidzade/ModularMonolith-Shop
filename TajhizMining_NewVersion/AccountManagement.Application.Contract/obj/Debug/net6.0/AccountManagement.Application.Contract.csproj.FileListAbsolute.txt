@@ -1,0 +1,15 @@
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\AccountManagement.Application.Contract\bin\Debug\net6.0\AccountManagement.Application.Contract.deps.json
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\AccountManagement.Application.Contract\bin\Debug\net6.0\AccountManagement.Application.Contract.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\AccountManagement.Application.Contract\bin\Debug\net6.0\ref\AccountManagement.Application.Contract.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\AccountManagement.Application.Contract\bin\Debug\net6.0\AccountManagement.Application.Contract.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\AccountManagement.Application.Contract\bin\Debug\net6.0\01_Framework.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\AccountManagement.Application.Contract\bin\Debug\net6.0\01_Framework.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\AccountManagement.Application.Contract\obj\Debug\net6.0\AccountManagement.Application.Contract.csproj.AssemblyReference.cache
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\AccountManagement.Application.Contract\obj\Debug\net6.0\AccountManagement.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\AccountManagement.Application.Contract\obj\Debug\net6.0\AccountManagement.Application.Contract.AssemblyInfoInputs.cache
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\AccountManagement.Application.Contract\obj\Debug\net6.0\AccountManagement.Application.Contract.AssemblyInfo.cs
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\AccountManagement.Application.Contract\obj\Debug\net6.0\AccountManagement.Application.Contract.csproj.CoreCompileInputs.cache
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\AccountManagement.Application.Contract\obj\Debug\net6.0\AccountManagement.Application.Contract.csproj.CopyComplete
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\AccountManagement.Application.Contract\obj\Debug\net6.0\AccountManagement.Application.Contract.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\AccountManagement.Application.Contract\obj\Debug\net6.0\ref\AccountManagement.Application.Contract.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\AccountManagement.Application.Contract\obj\Debug\net6.0\AccountManagement.Application.Contract.pdb

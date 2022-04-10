@@ -6,9 +6,15 @@ E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\01_Framework.dll
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\InventoryManagement.Domain.dll
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\InventoryManegement.Application.Contract.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Domain.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.dll
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\InventoryManagement.Domain.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.pdb
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\01_Framework.pdb
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\InventoryManegement.Application.Contract.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Domain.pdb
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\obj\Debug\net6.0\InventoryManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\obj\Debug\net6.0\InventoryManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\obj\Debug\net6.0\InventoryManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
@@ -19,9 +25,3 @@ E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\obj\Debug\net6.0\ref\InventoryManagement.Infrastructure.EFCore.dll
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\obj\Debug\net6.0\InventoryManagement.Infrastructure.EFCore.pdb
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\obj\Debug\net6.0\InventoryManagement.Infrastructure.EFCore.genruntimeconfig.cache
-E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
-E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Domain.dll
-E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.dll
-E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.pdb
-E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
-E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Domain.pdb

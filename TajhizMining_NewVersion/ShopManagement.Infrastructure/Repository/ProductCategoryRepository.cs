@@ -36,7 +36,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
 
         public EditProductCategory GetDetails(long id)
         {
-            return _Context.ProductCategories.Select(x => new EditProductCategory()
+            var productcategory= _Context.ProductCategories.Select(x => new EditProductCategory()
             {
                 Id = x.Id,
                 Name = x.Name,
@@ -48,6 +48,12 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 PictureTitle = x.PictureTitle,
                 Slug = x.Slug
             }).FirstOrDefault(x => x.Id == id);
+
+            if (productcategory == null)
+                throw new Exception();
+
+            return productcategory;
+
         }
 
         public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchmodel)
@@ -62,7 +68,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             });
             if(!string.IsNullOrWhiteSpace(searchmodel.Name))
             {
-                query=query.Where(x=>x.Name == searchmodel.Name);
+                query=query.Where(x=>x.Name.Contains(searchmodel.Name));
             }
 
             return query.OrderByDescending(x => x.Id).ToList();

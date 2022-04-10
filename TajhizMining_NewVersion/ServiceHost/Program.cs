@@ -19,11 +19,13 @@ DiscountManagement.Configuration.DiscountManagementBootstrapper.Configure(builde
 InventoryManagement.Configuration.InventoryManagementBootstrapper.Configure(builder.Services, connectionstring);
 CommentManagement.Configuration.CommentManagementBootstrapper.Configure(builder.Services, connectionstring);
 ArticleManagement.Configuration.ArticleManagementBootstrapper.Configure(builder.Services, connectionstring);
+AccountManagement.Infrastructure.Configuration.AccountManagementBootrapper.Configure(builder.Services, connectionstring);
 
 //FileUploader System Configuration
 builder.Services.AddTransient<IFileUploader, FileUploader>();
 
-//To add new encoder To show viewdata html in application
+//TO configure passwordHash helper in the framework
+builder.Services.AddTransient<IPasswordHasher,PasswordHasher>();
 
 
 

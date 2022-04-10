@@ -3,7 +3,9 @@ E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManegement.
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManegement.Application.Contract\bin\Debug\net6.0\ref\InventoryManegement.Application.Contract.dll
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManegement.Application.Contract\bin\Debug\net6.0\InventoryManegement.Application.Contract.pdb
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManegement.Application.Contract\bin\Debug\net6.0\01_Framework.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManegement.Application.Contract\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManegement.Application.Contract\bin\Debug\net6.0\01_Framework.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManegement.Application.Contract\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManegement.Application.Contract\obj\Debug\net6.0\InventoryManegement.Application.Contract.csproj.AssemblyReference.cache
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManegement.Application.Contract\obj\Debug\net6.0\InventoryManegement.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManegement.Application.Contract\obj\Debug\net6.0\InventoryManegement.Application.Contract.AssemblyInfoInputs.cache
@@ -13,5 +15,3 @@ E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManegement.
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManegement.Application.Contract\obj\Debug\net6.0\InventoryManegement.Application.Contract.dll
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManegement.Application.Contract\obj\Debug\net6.0\ref\InventoryManegement.Application.Contract.dll
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManegement.Application.Contract\obj\Debug\net6.0\InventoryManegement.Application.Contract.pdb
-E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManegement.Application.Contract\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
-E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\InventoryManegement.Application.Contract\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb

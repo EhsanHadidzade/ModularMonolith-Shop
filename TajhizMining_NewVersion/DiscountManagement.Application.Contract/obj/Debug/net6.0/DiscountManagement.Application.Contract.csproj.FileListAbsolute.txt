@@ -3,7 +3,9 @@ E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\DiscountManagement.A
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\DiscountManagement.Application.Contract\bin\Debug\net6.0\ref\DiscountManagement.Application.Contract.dll
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\DiscountManagement.Application.Contract\bin\Debug\net6.0\DiscountManagement.Application.Contract.pdb
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\DiscountManagement.Application.Contract\bin\Debug\net6.0\01_Framework.dll
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\DiscountManagement.Application.Contract\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\DiscountManagement.Application.Contract\bin\Debug\net6.0\01_Framework.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\DiscountManagement.Application.Contract\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\DiscountManagement.Application.Contract\obj\Debug\net6.0\DiscountManagement.Application.Contract.csproj.AssemblyReference.cache
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\DiscountManagement.Application.Contract\obj\Debug\net6.0\DiscountManagement.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\DiscountManagement.Application.Contract\obj\Debug\net6.0\DiscountManagement.Application.Contract.AssemblyInfoInputs.cache
@@ -13,5 +15,3 @@ E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\DiscountManagement.A
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\DiscountManagement.Application.Contract\obj\Debug\net6.0\DiscountManagement.Application.Contract.dll
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\DiscountManagement.Application.Contract\obj\Debug\net6.0\ref\DiscountManagement.Application.Contract.dll
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\DiscountManagement.Application.Contract\obj\Debug\net6.0\DiscountManagement.Application.Contract.pdb
-E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\DiscountManagement.Application.Contract\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
-E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\DiscountManagement.Application.Contract\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb

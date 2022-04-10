@@ -3124,6 +3124,78 @@
           "bin/placeholder/01_TajhizMiningQuery.dll": {}
         }
       },
+      "AccountManagement.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AccountManagement.Application.Contract": "1.0.0",
+          "AccountManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AccountManagement.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccountManagement.Application.dll": {}
+        }
+      },
+      "AccountManagement.Application.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01_Framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AccountManagement.Application.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccountManagement.Application.Contract.dll": {}
+        }
+      },
+      "AccountManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01_Framework": "1.0.0",
+          "AccountManagement.Application.Contract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AccountManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccountManagement.Domain.dll": {}
+        }
+      },
+      "AccountManagement.Infrastructure.Configuration/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AccountManagement.Application": "1.0.0",
+          "AccountManagement.Domain": "1.0.0",
+          "AccountManagement.Infrastructure.EFCore": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AccountManagement.Infrastructure.Configuration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccountManagement.Infrastructure.Configuration.dll": {}
+        }
+      },
+      "AccountManagement.Infrastructure.EFCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AccountManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3"
+        },
+        "compile": {
+          "bin/placeholder/AccountManagement.Infrastructure.EFCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccountManagement.Infrastructure.EFCore.dll": {}
+        }
+      },
       "ArticleManagement.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -9991,6 +10063,31 @@
       "path": "../01_TajhizMiningQuery/01_TajhizMiningQuery.csproj",
       "msbuildProject": "../01_TajhizMiningQuery/01_TajhizMiningQuery.csproj"
     },
+    "AccountManagement.Application/1.0.0": {
+      "type": "project",
+      "path": "../AccountManagement.Application/AccountManagement.Application.csproj",
+      "msbuildProject": "../AccountManagement.Application/AccountManagement.Application.csproj"
+    },
+    "AccountManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "path": "../AccountManagement.Application.Contract/AccountManagement.Application.Contract.csproj",
+      "msbuildProject": "../AccountManagement.Application.Contract/AccountManagement.Application.Contract.csproj"
+    },
+    "AccountManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../AccountManagement.Domain/AccountManagement.Domain.csproj",
+      "msbuildProject": "../AccountManagement.Domain/AccountManagement.Domain.csproj"
+    },
+    "AccountManagement.Infrastructure.Configuration/1.0.0": {
+      "type": "project",
+      "path": "../AccountManagement.Infrastructure.Configuration/AccountManagement.Infrastructure.Configuration.csproj",
+      "msbuildProject": "../AccountManagement.Infrastructure.Configuration/AccountManagement.Infrastructure.Configuration.csproj"
+    },
+    "AccountManagement.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "path": "../AccountManagement.Infrastructure.EFCore/AccountManagement.Infrastructure.EFCore.csproj",
+      "msbuildProject": "../AccountManagement.Infrastructure.EFCore/AccountManagement.Infrastructure.EFCore.csproj"
+    },
     "ArticleManagement.Application/1.0.0": {
       "type": "project",
       "path": "../ArticleManagement.Application/ArticleManagement.Application.csproj",
@@ -10120,6 +10217,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "01_TajhizMiningQuery >= 1.0.0",
+      "AccountManagement.Infrastructure.Configuration >= 1.0.0",
       "ArticleManagement.Configuration >= 1.0.0",
       "CommentManagement.Configuration >= 1.0.0",
       "DiscountManagement.Configuration >= 1.0.0",
@@ -10163,6 +10261,9 @@
           "projectReferences": {
             "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\01_TajhizMiningQuery\\01_TajhizMiningQuery.csproj": {
               "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\01_TajhizMiningQuery\\01_TajhizMiningQuery.csproj"
+            },
+            "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\AccountManagement.Infrastructure.Configuration\\AccountManagement.Infrastructure.Configuration.csproj": {
+              "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\AccountManagement.Infrastructure.Configuration\\AccountManagement.Infrastructure.Configuration.csproj"
             },
             "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleCategoryManagement.Configuration\\ArticleManagement.Configuration.csproj": {
               "projectPath": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ArticleCategoryManagement.Configuration\\ArticleManagement.Configuration.csproj"

@@ -1,8 +1,3 @@
-E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache
-E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
-E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
-E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.AssemblyInfo.cs
-E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.deps.json
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.runtimeconfig.json
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.dll
@@ -20,6 +15,11 @@ E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Inf
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net6.0\DiscountManagement.Application.Contract.pdb
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Domain.pdb
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.AssemblyInfo.cs
+E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.csproj.CopyComplete
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.dll
 E:\projects\TajhizMining_NewVersion\TajhizMining_NewVersion\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net6.0\ref\DiscountManagement.Infrastructure.EFCore.dll
