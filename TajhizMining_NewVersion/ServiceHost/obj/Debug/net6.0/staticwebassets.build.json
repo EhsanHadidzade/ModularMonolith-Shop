@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mmmMZFC+MQe74+9S0rwVlLQtvoxfxLe99hxsHDt/+4w=",
+  "Hash": "zeXsibphwZa9r8jrJW3apEktW2IFTTOGzIHC05kEhKU=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -11235,6 +11235,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\UploadedFiles\\Slides\\2022-04-09-17-02-43slider1.jpg"
+    },
+    {
+      "Identity": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ServiceHost\\wwwroot\\UploadedFiles\\UserProfilePics\\2022-04-10-17-43-26blog7.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "UploadedFiles/UserProfilePics/2022-04-10-17-43-26blog7.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadedFiles\\UserProfilePics\\2022-04-10-17-43-26blog7.jpg"
     },
     {
       "Identity": "E:\\projects\\TajhizMining_NewVersion\\TajhizMining_NewVersion\\ServiceHost\\wwwroot\\UploadedFiles\\انواع-مودم\\test\\2022-03-31-17-00-50product8.jpg",
